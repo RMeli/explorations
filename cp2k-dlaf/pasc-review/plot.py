@@ -65,5 +65,5 @@ def lp(name, average=True):
         plt.savefig(f"{name}.{ext}")
 
 
-lp("eigensolver")
+lp("eigensolver", average=False)
 lp("CP2K", average=False)
