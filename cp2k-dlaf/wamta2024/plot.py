@@ -32,6 +32,8 @@ df['Device'] = df["Device"].str.replace("(", "")
 df['Device'] = df["Device"].str.replace(")", "")
 df = df.assign(ngpus=np.where(df.Device == "A100", 4, 8)) 
 df["ngpus"] = df["ngpus"] * df["nodes"]
+df = df.assign(ngpumodules=np.where(df.Device == "A100", 4, 4)) 
+df["ngpumodules"] = df["ngpumodules"] * df["nodes"]
 
 #df.rename(columns={"la": "Library", "block_size": "Block Size"}, inplace=True)
 df.drop(columns=["block_size", "la"], inplace=True)
@@ -52,11 +54,12 @@ def lp(name, average=True):
     #    title = f"{system.upper()} (dlaf@{dlaf_version}-pika@{pika_version})"
     title = "CP2K: H2O-512 (20480x20480)"
 
-    fig, ax = plt.subplots(figsize=(4.4, 2.2), gridspec_kw=dict(left=0.13, right=0.95, top=0.9, bottom=0.19))
+    #fig, ax = plt.subplots(figsize=(4.4, 2.2), gridspec_kw=dict(left=0.13, right=0.95, top=0.9, bottom=0.19))
+    fig, ax = plt.subplots(figsize=(5, 4.3), gridspec_kw=dict(left=0.13, right=0.95, top=0.9, bottom=0.13))
 
     g = sns.lineplot(
         data=df,
-        x="ngpus",
+        x="nodes",
         y=name,
         style="Device",
         hue="Library",
@@ -65,7 +68,7 @@ def lp(name, average=True):
         palette=["tab:red", "tab:orange"],
         ax=ax,
     )
-    g.set(xlabel="GPUs", ylabel=y_labels[name], title=title)
+    g.set(xlabel="Number of Nodes", ylabel=y_labels[name], title=title)
     g.legend(loc="upper right", ncol=2)
 
     ax.set_xscale("log", base=2)
