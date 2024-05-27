@@ -1,0 +1,7 @@
+la,block_size,nodes,eigensolver,eigensolver_units,sirius,sirius_units
+dlaf-nvgpu,1024,0.25,18.77,s,57.69,s
+dlaf-nvgpu,1024,0.5,16.52,s,43.40,s
+dlaf-nvgpu,1024,1,14.46,s,38.50,s
+dlaf-nvgpu,1024,2,12.32,s,32.81,s
+dlaf-nvgpu,1024,4,11.69,s,30.85,s
+
