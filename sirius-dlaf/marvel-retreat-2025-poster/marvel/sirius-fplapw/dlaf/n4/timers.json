@@ -1,0 +1,1028 @@
+{
+  "sirius" : {
+    "timings" : [4.733006e+01],
+    "start-times" : [0.000000e+00],
+    "sub-timings" : {
+      "sirius::initialize" : {
+        "timings" : [1.152001e+01],
+        "start-times" : [2.240000e-07],
+        "sub-timings" : {
+        }
+      },
+      "sirius::Simulation_context::initialize" : {
+        "timings" : [8.884770e-01],
+        "start-times" : [1.152097e+01],
+        "sub-timings" : {
+          "sirius::Simulation_context::init_comm" : {
+            "timings" : [1.645289e-01],
+            "start-times" : [1.152103e+01],
+            "sub-timings" : {
+            }
+          },
+          "sirius::Unit_cell::initialize" : {
+            "timings" : [2.903840e-01],
+            "start-times" : [1.168558e+01],
+            "sub-timings" : {
+              "sirius::Atom_type::init" : {
+                "timings" : [2.174619e-01],
+                "start-times" : [1.168559e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::Unit_cell::update" : {
+                "timings" : [7.083655e-02],
+                "start-times" : [1.190513e+01],
+                "sub-timings" : {
+                  "sirius::Unit_cell::find_nearest_neighbours" : {
+                    "timings" : [6.824621e-02],
+                    "start-times" : [1.190514e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Unit_cell::get_symmetry" : {
+                    "timings" : [2.404579e-03],
+                    "start-times" : [1.197355e+01],
+                    "sub-timings" : {
+                      "sirius::Crystal_symmetry" : {
+                        "timings" : [2.313349e-03],
+                        "start-times" : [1.197356e+01],
+                        "sub-timings" : {
+                          "sirius::Crystal_symmetry|spg" : {
+                            "timings" : [1.802579e-03],
+                            "start-times" : [1.197357e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::find_sym_atom" : {
+                            "timings" : [5.279000e-06, 5.088000e-06, 4.672000e-06, 4.960000e-06, 4.576000e-06, 4.864000e-06, 4.543000e-06, 4.800000e-06, 4.736000e-06, 4.928000e-06, 4.640000e-06, 4.672000e-06, 4.768000e-06, 4.896000e-06, 4.479000e-06, 4.736000e-06, 4.352000e-06, 4.608000e-06, 4.448000e-06, 4.512000e-06, 4.639000e-06, 4.992000e-06, 4.480000e-06, 4.896000e-06, 4.640000e-06, 4.480000e-06, 4.320000e-06, 4.480000e-06, 4.415000e-06, 4.704000e-06, 4.224000e-06, 4.832000e-06, 4.160000e-06, 4.448000e-06, 4.352000e-06, 4.480000e-06, 4.287000e-06, 4.544000e-06, 4.128000e-06, 4.384000e-06, 4.384000e-06, 4.768000e-06, 4.384000e-06, 4.608000e-06, 4.127000e-06, 4.512000e-06, 4.192000e-06, 4.352000e-06],
+                            "start-times" : [1.197558e+01, 1.197559e+01, 1.197560e+01, 1.197560e+01, 1.197561e+01, 1.197562e+01, 1.197562e+01, 1.197563e+01, 1.197563e+01, 1.197564e+01, 1.197564e+01, 1.197565e+01, 1.197565e+01, 1.197566e+01, 1.197566e+01, 1.197567e+01, 1.197568e+01, 1.197569e+01, 1.197569e+01, 1.197570e+01, 1.197570e+01, 1.197571e+01, 1.197571e+01, 1.197572e+01, 1.197572e+01, 1.197573e+01, 1.197573e+01, 1.197574e+01, 1.197574e+01, 1.197574e+01, 1.197575e+01, 1.197576e+01, 1.197576e+01, 1.197577e+01, 1.197577e+01, 1.197578e+01, 1.197578e+01, 1.197579e+01, 1.197579e+01, 1.197580e+01, 1.197580e+01, 1.197581e+01, 1.197581e+01, 1.197582e+01, 1.197582e+01, 1.197583e+01, 1.197583e+01, 1.197583e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::Crystal_symmetry|mag" : {
+                            "timings" : [3.110300e-05],
+                            "start-times" : [1.197584e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "sirius::Simulation_context::update" : {
+            "timings" : [3.503816e-01],
+            "start-times" : [1.205302e+01],
+            "sub-timings" : {
+              "sirius::Unit_cell::update" : {
+                "timings" : [2.421699e-03],
+                "start-times" : [1.205302e+01],
+                "sub-timings" : {
+                  "sirius::Unit_cell::find_nearest_neighbours" : {
+                    "timings" : [1.477400e-04],
+                    "start-times" : [1.205302e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Unit_cell::get_symmetry" : {
+                    "timings" : [2.161610e-03],
+                    "start-times" : [1.205327e+01],
+                    "sub-timings" : {
+                      "sirius::Crystal_symmetry" : {
+                        "timings" : [2.123659e-03],
+                        "start-times" : [1.205329e+01],
+                        "sub-timings" : {
+                          "sirius::Crystal_symmetry|spg" : {
+                            "timings" : [1.689429e-03],
+                            "start-times" : [1.205329e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::find_sym_atom" : {
+                            "timings" : [5.408000e-06, 4.832000e-06, 4.639000e-06, 4.800000e-06, 4.512000e-06, 4.768000e-06, 4.480000e-06, 4.480000e-06, 4.544000e-06, 4.864000e-06, 4.415000e-06, 4.512000e-06, 4.544000e-06, 4.768000e-06, 4.320000e-06, 4.608000e-06, 4.224000e-06, 4.640000e-06, 4.159000e-06, 4.512000e-06, 4.480000e-06, 4.832000e-06, 4.480000e-06, 4.672000e-06, 4.448000e-06, 4.576000e-06, 4.383000e-06, 4.384000e-06, 4.288000e-06, 4.608000e-06, 4.160000e-06, 4.512000e-06, 4.256000e-06, 4.352000e-06, 4.159000e-06, 4.384000e-06, 4.128000e-06, 4.512000e-06, 4.224000e-06, 4.384000e-06, 4.480000e-06, 4.640000e-06, 4.512000e-06, 4.671000e-06, 4.288000e-06, 4.512000e-06, 4.224000e-06, 4.416000e-06],
+                            "start-times" : [1.205516e+01, 1.205517e+01, 1.205517e+01, 1.205518e+01, 1.205518e+01, 1.205519e+01, 1.205519e+01, 1.205520e+01, 1.205520e+01, 1.205521e+01, 1.205521e+01, 1.205522e+01, 1.205522e+01, 1.205523e+01, 1.205523e+01, 1.205524e+01, 1.205524e+01, 1.205525e+01, 1.205526e+01, 1.205526e+01, 1.205526e+01, 1.205527e+01, 1.205527e+01, 1.205528e+01, 1.205528e+01, 1.205529e+01, 1.205529e+01, 1.205530e+01, 1.205530e+01, 1.205531e+01, 1.205531e+01, 1.205532e+01, 1.205532e+01, 1.205533e+01, 1.205533e+01, 1.205534e+01, 1.205534e+01, 1.205535e+01, 1.205535e+01, 1.205536e+01, 1.205536e+01, 1.205537e+01, 1.205537e+01, 1.205538e+01, 1.205538e+01, 1.205538e+01, 1.205539e+01, 1.205539e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::Crystal_symmetry|mag" : {
+                            "timings" : [1.526400e-05],
+                            "start-times" : [1.205540e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "fft::Gvec::init" : {
+                "timings" : [1.126221e-02, 9.677436e-02],
+                "start-times" : [1.206859e+01, 1.220288e+01],
+                "sub-timings" : {
+                  "fft::Gvec::find_z_columns" : {
+                    "timings" : [5.916747e-03, 3.711970e-02],
+                    "start-times" : [1.206860e+01, 1.220288e+01],
+                    "sub-timings" : {
+                      "fft::Gvec::find_z_columns|add" : {
+                        "timings" : [1.441371e-03, 8.413228e-03],
+                        "start-times" : [1.206860e+01, 1.220288e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "fft::Gvec::find_z_columns|sym" : {
+                        "timings" : [4.408913e-03, 2.850085e-02],
+                        "start-times" : [1.207004e+01, 1.221129e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "fft::Gvec::find_z_columns|sort" : {
+                        "timings" : [5.923100e-05, 2.023950e-04],
+                        "start-times" : [1.207445e+01, 1.223980e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "fft::Gvec::find_gvec_shells" : {
+                    "timings" : [3.843039e-03, 4.884667e-02],
+                    "start-times" : [1.207542e+01, 1.224661e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "fft::Gvec_shells" : {
+                "timings" : [3.480306e-02],
+                "start-times" : [1.236130e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::make_periodic_function" : {
+                "timings" : [3.998427e-03],
+                "start-times" : [1.239695e+01],
+                "sub-timings" : {
+                }
+              }
+            }
+          }
+        }
+      },
+      "sirius::K_point_set::create_k_mesh" : {
+        "timings" : [3.811945e-02],
+        "start-times" : [1.240946e+01],
+        "sub-timings" : {
+          "fft::Gvec::init" : {
+            "timings" : [5.027710e-04],
+            "start-times" : [1.240958e+01],
+            "sub-timings" : {
+              "fft::Gvec::find_z_columns" : {
+                "timings" : [2.671610e-04],
+                "start-times" : [1.240958e+01],
+                "sub-timings" : {
+                  "fft::Gvec::find_z_columns|add" : {
+                    "timings" : [2.511290e-04],
+                    "start-times" : [1.240958e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "fft::Gvec::find_z_columns|sym" : {
+                    "timings" : [6.400000e-08],
+                    "start-times" : [1.240983e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "fft::Gvec::find_z_columns|sort" : {
+                    "timings" : [1.427200e-05],
+                    "start-times" : [1.240983e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "sirius::K_point_set::initialize" : {
+            "timings" : [3.749454e-02],
+            "start-times" : [1.241009e+01],
+            "sub-timings" : {
+              "sirius::K_point::initialize" : {
+                "timings" : [3.740347e-02],
+                "start-times" : [1.241010e+01],
+                "sub-timings" : {
+                  "sirius::K_point::generate_gkvec" : {
+                    "timings" : [6.211491e-03],
+                    "start-times" : [1.241011e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::K_point::update" : {
+                    "timings" : [1.934703e-03],
+                    "start-times" : [1.244556e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "sirius::Potential" : {
+        "timings" : [5.522869e-03],
+        "start-times" : [1.244933e+01],
+        "sub-timings" : {
+          "sirius::Potential::update" : {
+            "timings" : [4.230966e-03],
+            "start-times" : [1.245062e+01],
+            "sub-timings" : {
+              "sirius::generate_gvec_ylm" : {
+                "timings" : [1.094788e-03],
+                "start-times" : [1.245062e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::generate_sbessel_mt" : {
+                "timings" : [6.651990e-04],
+                "start-times" : [1.245173e+01],
+                "sub-timings" : {
+                }
+              }
+            }
+          }
+        }
+      },
+      "sirius::Density" : {
+        "timings" : [2.150601e-03],
+        "start-times" : [1.245652e+01],
+        "sub-timings" : {
+          "sirius::Density::update" : {
+            "timings" : [4.800000e-07],
+            "start-times" : [1.245867e+01],
+            "sub-timings" : {
+            }
+          }
+        }
+      },
+      "sirius::DFT_ground_state::initial_state" : {
+        "timings" : [1.384400e+00],
+        "start-times" : [1.245868e+01],
+        "sub-timings" : {
+          "sirius::Density::initial_density" : {
+            "timings" : [1.273006e+00],
+            "start-times" : [1.245868e+01],
+            "sub-timings" : {
+              "sirius::Radial_integrals|rho_free_atom" : {
+                "timings" : [3.152465e-03],
+                "start-times" : [1.245970e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::make_periodic_function" : {
+                "timings" : [1.092770e-04],
+                "start-times" : [1.246286e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::Smooth_periodic_function::fft_transform" : {
+                "timings" : [2.872887e-03],
+                "start-times" : [1.246308e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::generate_gvec_ylm" : {
+                "timings" : [9.646160e-04],
+                "start-times" : [1.246925e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::generate_sbessel_mt" : {
+                "timings" : [7.539650e-04],
+                "start-times" : [1.247021e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::sum_fg_fl_yg" : {
+                "timings" : [4.996447e-02],
+                "start-times" : [1.247097e+01],
+                "sub-timings" : {
+                  "sirius::Simulation_context::generate_phase_factors" : {
+                    "timings" : [6.948950e-04],
+                    "start-times" : [1.247589e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::sum_fg_fl_yg|zm" : {
+                    "timings" : [9.903430e-04],
+                    "start-times" : [1.247658e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::sum_fg_fl_yg|mul" : {
+                    "timings" : [4.268155e-02],
+                    "start-times" : [1.247757e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::Periodic_function::integrate" : {
+                "timings" : [1.038501e-03, 1.906777e-02],
+                "start-times" : [1.252135e+01, 1.367666e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::symmetrize_pw_function" : {
+                "timings" : [2.454594e-03],
+                "start-times" : [1.369576e+01],
+                "sub-timings" : {
+                  "fft::Gvec_shells::remap_forward" : {
+                    "timings" : [6.816470e-04],
+                    "start-times" : [1.369576e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::symmetrize|fpw|local" : {
+                    "timings" : [1.035494e-03],
+                    "start-times" : [1.369647e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "fft::Gvec_shells::remap_backward" : {
+                    "timings" : [6.614870e-04],
+                    "start-times" : [1.369755e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::symmetrize_mt_function" : {
+                "timings" : [8.735556e-03, 1.274806e-02, 1.198360e-02],
+                "start-times" : [1.369822e+01, 1.370696e+01, 1.371971e+01],
+                "sub-timings" : {
+                }
+              }
+            }
+          },
+          "sirius::Potential::generate" : {
+            "timings" : [1.113805e-01],
+            "start-times" : [1.373170e+01],
+            "sub-timings" : {
+              "sirius::Potential::poisson" : {
+                "timings" : [1.200846e-02],
+                "start-times" : [1.373274e+01],
+                "sub-timings" : {
+                  "sirius::Potential::poisson_vmt" : {
+                    "timings" : [3.040627e-03],
+                    "start-times" : [1.373274e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::sum_fg_fl_yg" : {
+                    "timings" : [1.376413e-03, 1.277311e-03],
+                    "start-times" : [1.373578e+01, 1.374093e+01],
+                    "sub-timings" : {
+                      "sirius::Simulation_context::generate_phase_factors" : {
+                        "timings" : [4.495900e-05, 1.158400e-05],
+                        "start-times" : [1.373580e+01, 1.374094e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::sum_fg_fl_yg|zm" : {
+                        "timings" : [5.144190e-04, 3.484710e-04],
+                        "start-times" : [1.373585e+01, 1.374095e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::sum_fg_fl_yg|mul" : {
+                        "timings" : [5.095230e-04, 4.248530e-04],
+                        "start-times" : [1.373636e+01, 1.374130e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::Potential::poisson_add_pseudo_pw" : {
+                    "timings" : [3.687683e-03],
+                    "start-times" : [1.373723e+01],
+                    "sub-timings" : {
+                      "sirius::Simulation_context::generate_phase_factors" : {
+                        "timings" : [1.340700e-05],
+                        "start-times" : [1.373724e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::Potential::poisson|bc" : {
+                    "timings" : [4.660360e-04],
+                    "start-times" : [1.374221e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Smooth_periodic_function::fft_transform" : {
+                    "timings" : [6.925270e-04],
+                    "start-times" : [1.374268e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::inner::pf" : {
+                    "timings" : [1.132675e-03],
+                    "start-times" : [1.374337e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::Periodic_function::add" : {
+                "timings" : [2.842170e-04, 1.994190e-04],
+                "start-times" : [1.374475e+01, 1.378266e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::Potential::xc" : {
+                "timings" : [3.762155e-02],
+                "start-times" : [1.374504e+01],
+                "sub-timings" : {
+                  "sirius::Potential::xc_mt" : {
+                    "timings" : [2.590885e-02],
+                    "start-times" : [1.374525e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Potential::xc_rg_nonmagnetic" : {
+                    "timings" : [1.149152e-02],
+                    "start-times" : [1.377117e+01],
+                    "sub-timings" : {
+                      "sirius::Potential::xc_rg_nonmagnetic|libxc" : {
+                        "timings" : [1.238050e-04, 1.605720e-04],
+                        "start-times" : [1.378234e+01, 1.378247e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "sirius::Smooth_periodic_function::fft_transform" : {
+                "timings" : [7.223820e-04, 6.515040e-04],
+                "start-times" : [1.380403e+01, 1.384242e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::symmetrize_pw_function" : {
+                "timings" : [2.361413e-03],
+                "start-times" : [1.380476e+01],
+                "sub-timings" : {
+                  "fft::Gvec_shells::remap_forward" : {
+                    "timings" : [6.281450e-04],
+                    "start-times" : [1.380476e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::symmetrize|fpw|local" : {
+                    "timings" : [1.038662e-03],
+                    "start-times" : [1.380542e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "fft::Gvec_shells::remap_backward" : {
+                    "timings" : [6.229600e-04],
+                    "start-times" : [1.380650e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::symmetrize_mt_function" : {
+                "timings" : [7.200138e-03, 1.401872e-02, 1.407238e-02],
+                "start-times" : [1.380713e+01, 1.381433e+01, 1.382835e+01],
+                "sub-timings" : {
+                }
+              }
+            }
+          }
+        }
+      },
+      "sirius::DFT_ground_state::scf_loop" : {
+        "timings" : [3.243370e+01],
+        "start-times" : [1.384309e+01],
+        "sub-timings" : {
+          "sirius::Density" : {
+            "timings" : [2.294822e-03],
+            "start-times" : [1.391954e+01],
+            "sub-timings" : {
+              "sirius::Density::update" : {
+                "timings" : [9.920000e-07],
+                "start-times" : [1.392184e+01],
+                "sub-timings" : {
+                }
+              }
+            }
+          },
+          "sirius::DFT_ground_state::scf_loop|iteration" : {
+            "timings" : [1.725529e+01, 1.497103e+01],
+            "start-times" : [1.392193e+01, 3.117722e+01],
+            "sub-timings" : {
+              "sirius::Hamiltonian0" : {
+                "timings" : [1.035465e-01, 9.481486e-02],
+                "start-times" : [1.392194e+01, 3.117723e+01],
+                "sub-timings" : {
+                  "sirius::Local_operator" : {
+                    "timings" : [6.243202e-03, 2.907350e-03],
+                    "start-times" : [1.392194e+01, 3.117723e+01],
+                    "sub-timings" : {
+                      "sirius::Smooth_periodic_function::fft_transform" : {
+                        "timings" : [3.278509e-03, 6.117930e-04, 4.901000e-04, 6.416800e-04, 4.568520e-04, 5.580020e-04, 4.394450e-04, 4.209820e-04],
+                        "start-times" : [1.392219e+01, 1.392622e+01, 1.392692e+01, 1.392747e+01, 3.117739e+01, 3.117851e+01, 3.117917e+01, 3.117967e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::Potential::generate_pw_coefs" : {
+                    "timings" : [7.531907e-03, 6.548219e-03],
+                    "start-times" : [1.392819e+01, 3.118014e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Unit_cell::generate_radial_functions" : {
+                    "timings" : [4.283261e-02, 4.061725e-02],
+                    "start-times" : [1.393579e+01, 3.118674e+01],
+                    "sub-timings" : {
+                      "sirius::Atom_symmetry_class::generate_radial_functions" : {
+                        "timings" : [4.161802e-02, 3.886875e-02],
+                        "start-times" : [1.393580e+01, 3.118674e+01],
+                        "sub-timings" : {
+                          "sirius::Atom_symmetry_class::find_enu" : {
+                            "timings" : [3.802378e-02, 3.533207e-02],
+                            "start-times" : [1.393582e+01, 3.118676e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "sirius::Unit_cell::generate_radial_integrals" : {
+                    "timings" : [3.228840e-02, 3.120395e-02],
+                    "start-times" : [1.397863e+01, 3.122736e+01],
+                    "sub-timings" : {
+                      "sirius::Atom_symmetry_class::generate_radial_integrals" : {
+                        "timings" : [1.995214e-03, 2.121835e-03],
+                        "start-times" : [1.397863e+01, 3.122736e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::Atom::generate_radial_integrals" : {
+                        "timings" : [4.358162e-03, 3.589670e-03, 3.409418e-03, 3.475848e-03, 3.482120e-03, 3.451464e-03, 3.453001e-03, 3.383435e-03],
+                        "start-times" : [1.398121e+01, 1.398556e+01, 1.398916e+01, 1.399257e+01, 3.123007e+01, 3.123355e+01, 3.123701e+01, 3.124046e+01],
+                        "sub-timings" : {
+                          "sirius::Atom::generate_radial_integrals|interp" : {
+                            "timings" : [2.044301e-03, 1.665686e-03, 1.600952e-03, 1.637623e-03, 1.539929e-03, 1.630199e-03, 1.695318e-03, 1.637559e-03],
+                            "start-times" : [1.398157e+01, 1.398582e+01, 1.398939e+01, 1.399283e+01, 3.123033e+01, 3.123378e+01, 3.123721e+01, 3.124068e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "sirius::diagonalize" : {
+                "timings" : [1.676010e+01, 1.451213e+01],
+                "start-times" : [1.402550e+01, 3.127205e+01],
+                "sub-timings" : {
+                  "sirius::Hamiltonian_k" : {
+                    "timings" : [9.635000e-05, 8.457400e-05],
+                    "start-times" : [1.402553e+01, 3.127206e+01],
+                    "sub-timings" : {
+                      "sirius::Local_operator::prepare_k" : {
+                        "timings" : [9.225400e-05, 8.399800e-05],
+                        "start-times" : [1.402553e+01, 3.127206e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::diagonalize_fp_fv_exact" : {
+                    "timings" : [1.671098e+01, 1.448034e+01],
+                    "start-times" : [1.402563e+01, 3.127215e+01],
+                    "sub-timings" : {
+                      "sirius::Hamiltonian_k::set_fv_h_o" : {
+                        "timings" : [4.692501e-01, 2.093072e-01],
+                        "start-times" : [1.402665e+01, 3.127263e+01],
+                        "sub-timings" : {
+                          "sirius::Hamiltonian_k::set_fv_h_o|zgemm" : {
+                            "timings" : [2.387002e-01, 1.841694e-01],
+                            "start-times" : [1.425206e+01, 3.129271e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::Hamiltonian_k::set_fv_h_o_it" : {
+                            "timings" : [5.050913e-03, 4.998178e-03],
+                            "start-times" : [1.449078e+01, 3.147688e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::Hamiltonian_k::set_fv_h_o_lo_lo" : {
+                            "timings" : [4.140700e-05, 2.844700e-05],
+                            "start-times" : [1.449583e+01, 3.148188e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      },
+                      "Eigensolver_dlaf|dlaf_hermitian_generalized_eigensolver_z" : {
+                        "timings" : [1.622272e+01, 1.424687e+01],
+                        "start-times" : [1.449595e+01, 3.148196e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::wf::Wave_functions_fft::grid_layout_pw" : {
+                        "timings" : [3.254300e-05, 9.376000e-06],
+                        "start-times" : [3.073338e+01, 4.574302e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::K_point::generate_fv_states" : {
+                    "timings" : [4.855247e-02, 3.128872e-02],
+                    "start-times" : [3.073662e+01, 4.575249e+01],
+                    "sub-timings" : {
+                      "sirius::generate_alm_block" : {
+                        "timings" : [1.524762e-03, 1.179938e-03],
+                        "start-times" : [3.073676e+01, 4.575285e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::diagonalize_fp_sv" : {
+                    "timings" : [5.056000e-06, 5.056000e-06],
+                    "start-times" : [3.078517e+01, 4.578378e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::K_point::generate_spinor_wave_functions" : {
+                    "timings" : [2.684410e-04, 2.686970e-04],
+                    "start-times" : [3.078518e+01, 4.578378e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::K_point_set::sync_band" : {
+                    "timings" : [6.697400e-05, 6.329400e-05],
+                    "start-times" : [3.078546e+01, 4.578406e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::K_point_set::find_band_occupancies" : {
+                "timings" : [3.771425e-03, 4.059257e-03],
+                "start-times" : [3.078560e+01, 4.578419e+01],
+                "sub-timings" : {
+                  "sirius::K_point_set::sync_band" : {
+                    "timings" : [3.590300e-05, 3.731100e-05],
+                    "start-times" : [3.078922e+01, 4.578809e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::Density::generate" : {
+                "timings" : [1.692516e-01, 9.969265e-02],
+                "start-times" : [3.078938e+01, 4.578825e+01],
+                "sub-timings" : {
+                  "sirius::Density::generate_valence" : {
+                    "timings" : [1.051217e-01, 3.955043e-02],
+                    "start-times" : [3.078938e+01, 4.578825e+01],
+                    "sub-timings" : {
+                      "shuffle_to_fft_layout" : {
+                        "timings" : [1.123235e-03, 1.105028e-03],
+                        "start-times" : [3.079122e+01, 4.579007e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::add_k_point_contribution_dm_fplapw" : {
+                        "timings" : [2.404836e-03, 2.403972e-03],
+                        "start-times" : [3.079235e+01, 4.579118e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::Density::add_k_point_contribution_rg" : {
+                        "timings" : [8.288367e-03, 7.365446e-03],
+                        "start-times" : [3.079476e+01, 4.579359e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::Smooth_periodic_function::fft_transform" : {
+                        "timings" : [3.752220e-04, 3.598950e-04],
+                        "start-times" : [3.082727e+01, 4.582555e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::Density::generate_valence_mt" : {
+                        "timings" : [6.683147e-02, 1.864337e-03],
+                        "start-times" : [3.082767e+01, 4.582593e+01],
+                        "sub-timings" : {
+                          "sirius::Density::generate|sum_zdens" : {
+                            "timings" : [7.580600e-05, 4.659100e-05, 3.523100e-05, 3.430300e-05, 6.924700e-05, 3.401500e-05, 3.411100e-05, 3.219200e-05],
+                            "start-times" : [3.082768e+01, 3.089302e+01, 3.089352e+01, 3.089401e+01, 4.582594e+01, 4.582639e+01, 4.582686e+01, 4.582733e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::Density::generate|expand_lm" : {
+                            "timings" : [6.526242e-02, 4.560840e-04, 4.518610e-04, 4.512210e-04, 3.767580e-04, 4.331410e-04, 4.365970e-04, 4.338450e-04],
+                            "start-times" : [3.082776e+01, 3.089307e+01, 3.089356e+01, 3.089405e+01, 4.582601e+01, 4.582643e+01, 4.582689e+01, 4.582736e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "sirius::Density::generate_core_charge_density" : {
+                    "timings" : [2.577151e-03, 5.343860e-04],
+                    "start-times" : [3.089450e+01, 4.582780e+01],
+                    "sub-timings" : {
+                      "sirius::Atom_symmetry_class::generate_core_charge_density" : {
+                        "timings" : [1.600000e-06, 1.536000e-06],
+                        "start-times" : [3.089451e+01, 4.582780e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::symmetrize_pw_function" : {
+                    "timings" : [2.666557e-03, 2.530080e-03],
+                    "start-times" : [3.091879e+01, 4.584956e+01],
+                    "sub-timings" : {
+                      "fft::Gvec_shells::remap_forward" : {
+                        "timings" : [7.130380e-04, 6.880460e-04],
+                        "start-times" : [3.091879e+01, 4.584956e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::symmetrize|fpw|local" : {
+                        "timings" : [1.099268e-03, 1.046981e-03],
+                        "start-times" : [3.091953e+01, 4.585028e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "fft::Gvec_shells::remap_backward" : {
+                        "timings" : [7.839800e-04, 7.273740e-04],
+                        "start-times" : [3.092067e+01, 4.585136e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::symmetrize_mt_function" : {
+                    "timings" : [7.204458e-03, 1.464718e-02, 1.453039e-02, 6.818099e-03, 1.389251e-02, 1.430918e-02],
+                    "start-times" : [3.092146e+01, 3.092867e+01, 3.094332e+01, 4.585210e+01, 4.585892e+01, 4.587281e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Smooth_periodic_function::fft_transform" : {
+                    "timings" : [7.715010e-04, 8.125870e-04],
+                    "start-times" : [3.095785e+01, 4.588712e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::inner::pf" : {
+                "timings" : [1.167043e-03, 1.131428e-03, 1.152771e-03, 1.134531e-03, 1.225377e-03, 1.108260e-03, 1.267040e-03, 1.254848e-03, 1.279392e-03, 1.274016e-03, 1.218785e-03, 1.144323e-03, 1.122788e-03, 1.250784e-03, 1.115524e-03, 1.241472e-03, 1.285824e-03, 1.270848e-03],
+                "start-times" : [3.101064e+01, 3.116502e+01, 3.116644e+01, 3.116761e+01, 3.116950e+01, 3.117073e+01, 3.117184e+01, 3.117325e+01, 3.117451e+01, 4.594119e+01, 4.613636e+01, 4.613777e+01, 4.613892e+01, 4.614052e+01, 4.614177e+01, 4.614289e+01, 4.614428e+01, 4.614557e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::Density::mix" : {
+                "timings" : [4.542205e-02, 8.466103e-02],
+                "start-times" : [3.101758e+01, 4.594815e+01],
+                "sub-timings" : {
+                  "sirius::Density::mixer_input" : {
+                    "timings" : [5.739983e-03, 5.612274e-03],
+                    "start-times" : [3.101759e+01, 4.594815e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::inner::pf" : {
+                    "timings" : [1.256672e-03, 1.608503e-03, 2.980437e-03, 1.158787e-03],
+                    "start-times" : [3.103649e+01, 4.596689e+01, 4.600159e+01, 4.600458e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Density::mixer_output" : {
+                    "timings" : [8.510217e-03, 7.809083e-03],
+                    "start-times" : [3.105450e+01, 4.602500e+01],
+                    "sub-timings" : {
+                      "sirius::Smooth_periodic_function::fft_transform" : {
+                        "timings" : [2.214984e-03, 1.491930e-03],
+                        "start-times" : [3.106079e+01, 4.603131e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "sirius::Potential::generate" : {
+                "timings" : [1.016869e-01, 1.033581e-01],
+                "start-times" : [3.106333e+01, 4.603299e+01],
+                "sub-timings" : {
+                  "sirius::Potential::poisson" : {
+                    "timings" : [1.261805e-02, 1.331870e-02],
+                    "start-times" : [3.106436e+01, 4.603402e+01],
+                    "sub-timings" : {
+                      "sirius::Potential::poisson_vmt" : {
+                        "timings" : [2.626046e-03, 3.543911e-03],
+                        "start-times" : [3.106436e+01, 4.603403e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::sum_fg_fl_yg" : {
+                        "timings" : [1.710293e-03, 2.105131e-03, 1.399932e-03, 2.122283e-03],
+                        "start-times" : [3.106699e+01, 3.107237e+01, 4.603757e+01, 4.604269e+01],
+                        "sub-timings" : {
+                          "sirius::Simulation_context::generate_phase_factors" : {
+                            "timings" : [3.436700e-05, 1.004800e-05, 2.988800e-05, 1.052700e-05],
+                            "start-times" : [3.106703e+01, 3.107238e+01, 4.603763e+01, 4.604271e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::sum_fg_fl_yg|zm" : {
+                            "timings" : [4.678280e-04, 3.164720e-04, 4.935550e-04, 3.180400e-04],
+                            "start-times" : [3.106707e+01, 3.107239e+01, 4.603766e+01, 4.604272e+01],
+                            "sub-timings" : {
+                            }
+                          },
+                          "sirius::sum_fg_fl_yg|mul" : {
+                            "timings" : [5.348990e-04, 4.214930e-04, 5.374900e-04, 4.246620e-04],
+                            "start-times" : [3.106754e+01, 3.107271e+01, 4.603815e+01, 4.604304e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      },
+                      "sirius::Potential::poisson_add_pseudo_pw" : {
+                        "timings" : [3.584390e-03, 3.645732e-03],
+                        "start-times" : [3.106876e+01, 4.603903e+01],
+                        "sub-timings" : {
+                          "sirius::Simulation_context::generate_phase_factors" : {
+                            "timings" : [1.328000e-05, 1.097600e-05],
+                            "start-times" : [3.106877e+01, 4.603905e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      },
+                      "sirius::Potential::poisson|bc" : {
+                        "timings" : [4.587400e-04, 4.492360e-04],
+                        "start-times" : [3.107447e+01, 4.604482e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::Smooth_periodic_function::fft_transform" : {
+                        "timings" : [6.620310e-04, 6.687510e-04],
+                        "start-times" : [3.107493e+01, 4.604527e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::inner::pf" : {
+                        "timings" : [1.144419e-03, 1.173186e-03],
+                        "start-times" : [3.107560e+01, 4.604594e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::Periodic_function::add" : {
+                    "timings" : [2.575290e-04, 1.743310e-04, 2.910640e-04, 1.829710e-04],
+                    "start-times" : [3.107697e+01, 3.110413e+01, 4.604734e+01, 4.607465e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::Potential::xc" : {
+                    "timings" : [2.689945e-02, 2.701426e-02],
+                    "start-times" : [3.107723e+01, 4.604764e+01],
+                    "sub-timings" : {
+                      "sirius::Potential::xc_mt" : {
+                        "timings" : [2.558233e-02, 2.569068e-02],
+                        "start-times" : [3.107745e+01, 4.604785e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::Potential::xc_rg_nonmagnetic" : {
+                        "timings" : [1.096197e-03, 1.104101e-03],
+                        "start-times" : [3.110303e+01, 4.607354e+01],
+                        "sub-timings" : {
+                          "sirius::Potential::xc_rg_nonmagnetic|libxc" : {
+                            "timings" : [1.337250e-04, 2.214660e-04, 1.315490e-04, 2.298180e-04],
+                            "start-times" : [3.110374e+01, 3.110389e+01, 4.607425e+01, 4.607440e+01],
+                            "sub-timings" : {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "sirius::Smooth_periodic_function::fft_transform" : {
+                    "timings" : [6.159840e-04, 6.390240e-04, 6.081450e-04, 9.418320e-04],
+                    "start-times" : [3.112544e+01, 3.116437e+01, 4.609608e+01, 4.613540e+01],
+                    "sub-timings" : {
+                    }
+                  },
+                  "sirius::symmetrize_pw_function" : {
+                    "timings" : [2.396388e-03, 2.455714e-03],
+                    "start-times" : [3.112606e+01, 4.609670e+01],
+                    "sub-timings" : {
+                      "fft::Gvec_shells::remap_forward" : {
+                        "timings" : [6.735510e-04, 6.612630e-04],
+                        "start-times" : [3.112607e+01, 4.609670e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "sirius::symmetrize|fpw|local" : {
+                        "timings" : [1.008870e-03, 1.018310e-03],
+                        "start-times" : [3.112677e+01, 4.609739e+01],
+                        "sub-timings" : {
+                        }
+                      },
+                      "fft::Gvec_shells::remap_backward" : {
+                        "timings" : [6.462240e-04, 6.608800e-04],
+                        "start-times" : [3.112781e+01, 4.609850e+01],
+                        "sub-timings" : {
+                        }
+                      }
+                    }
+                  },
+                  "sirius::symmetrize_mt_function" : {
+                    "timings" : [7.154731e-03, 1.446431e-02, 1.427717e-02, 7.284008e-03, 1.462680e-02, 1.432396e-02],
+                    "start-times" : [3.112847e+01, 3.113562e+01, 3.115009e+01, 4.609916e+01, 4.610645e+01, 4.612108e+01],
+                    "sub-timings" : {
+                    }
+                  }
+                }
+              },
+              "sirius::Periodic_function::integrate" : {
+                "timings" : [9.107610e-04, 9.158490e-04],
+                "start-times" : [3.117603e+01, 4.614708e+01],
+                "sub-timings" : {
+                }
+              },
+              "sirius::Density::get_magnetisation" : {
+                "timings" : [2.592000e-06, 2.656000e-06],
+                "start-times" : [3.117695e+01, 4.614800e+01],
+                "sub-timings" : {
+                }
+              }
+            }
+          },
+          "sirius::inner::pf" : {
+            "timings" : [1.232001e-03, 1.273920e-03, 1.279552e-03, 1.240993e-03, 1.296895e-03, 1.207714e-03, 1.258432e-03, 1.217378e-03, 1.276063e-03, 1.241793e-03, 1.237313e-03, 1.186594e-03, 1.280960e-03],
+            "start-times" : [4.614870e+01, 4.614994e+01, 4.615121e+01, 4.615262e+01, 4.615387e+01, 4.626585e+01, 4.626706e+01, 4.626861e+01, 4.626983e+01, 4.627136e+01, 4.627260e+01, 4.627385e+01, 4.627526e+01],
+            "sub-timings" : {
+            }
+          },
+          "sirius::Periodic_function::integrate" : {
+            "timings" : [8.799770e-04],
+            "start-times" : [4.615539e+01],
+            "sub-timings" : {
+            }
+          },
+          "sirius::Density::get_magnetisation" : {
+            "timings" : [2.784000e-06],
+            "start-times" : [4.615627e+01],
+            "sub-timings" : {
+            }
+          },
+          "sirius::Smooth_periodic_function::fft_transform" : {
+            "timings" : [5.560180e-04],
+            "start-times" : [4.616924e+01],
+            "sub-timings" : {
+            }
+          },
+          "sirius::Smooth_periodic_function::gather_f_pw" : {
+            "timings" : [4.606828e-03, 4.005595e-03],
+            "start-times" : [4.616981e+01, 4.623325e+01],
+            "sub-timings" : {
+            }
+          }
+        }
+      },
+      "sirius::finalize" : {
+        "timings" : [7.904732e-01],
+        "start-times" : [4.653959e+01],
+        "sub-timings" : {
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,976 @@
+loading the view [1;36msirius:sirius[0m
+cpu-bind=MASK - nid005219, task  0  0 [60020]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid005219, task  1  1 [60021]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid005219, task  2  2 [60022]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid005219, task  3  3 [60023]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006640, task  4  0 [187514]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid006640, task  5  1 [187515]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid007393, task 24  0 [49662]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid006640, task  6  2 [187516]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid007393, task 25  1 [49663]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid007393, task 26  2 [49664]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid007451, task 28  0 [60339]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid007451, task 29  1 [60340]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid007451, task 30  2 [60341]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006670, task 16  0 [188799]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid007373, task 20  0 [284902]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid007373, task 21  1 [284903]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid006670, task 17  1 [188800]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid007373, task 22  2 [284904]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006670, task 18  2 [188801]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid007373, task 23  3 [284905]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006670, task 19  3 [188802]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - nid007393, task 27  3 [49665]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - nid007451, task 31  3 [60342]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006641, task  8  0 [114661]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid006641, task  9  1 [114662]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid006641, task 10  2 [114663]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006641, task 11  3 [114664]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006640, task  7  3 [187517]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006644, task 12  0 [92354]: mask 0xffffffffffffffff set
+cpu-bind=MASK - nid006644, task 13  1 [92355]: mask 0xffffffffffffffff000000000000000000 set
+cpu-bind=MASK - nid006644, task 14  2 [92356]: mask 0xffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - nid006644, task 15  3 [92357]: mask 0xffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+SIRIUS 7.6.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.6.1
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+[info] SIRIUS version : 7.6.1
+[info] git hash       : https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.6.1
+[info] git branch     : release v7.6.1
+[info] build time     : 1980-01-01 12:01:00
+[info] start time     : Wed,  8 Jan 2025 11:21:23
+[info] 
+[info] number of MPI ranks           : 32
+[info] MPI grid                      : 8 4
+[info] maximum number of OMP threads : 63
+[info] number of MPI ranks per node  : 4
+[info] page size (Kb)                : 64
+[info] number of pages               : 13999490
+[info] available memory (GB)         : 854
+[info] 
+[fft] FFT context for density and potential
+[fft] =====================================
+[fft]   comm size                             : 32
+[fft]   plane wave cutoff                     : 20
+[fft]   grid size                             : 135 135 135   total : 2460375
+[fft]   grid limits                           : -67 67   -67 67   -67 67
+[fft]   number of G-vectors within the cutoff : 1080751
+[fft]   local number of G-vectors             : 33805
+[fft]   number of G-shells                    : 24484
+[fft] 
+[fft] FFT context for coarse grid
+[fft] =====================================
+[fft]   comm size                             : 8
+[fft]   plane wave cutoff                     : 10
+[fft]   grid size                             : 72 72 72   total : 373248
+[fft]   grid limits                           : -35 36   -35 36   -35 36
+[fft]   number of G-vectors within the cutoff : 135043
+[fft]   local number of G-vectors             : 4222
+[fft]   number of G-shells                    : 3317
+[fft] 
+[fft] 
+[unit cell] lattice vectors
+[unit cell]   a1 :      20.0000000000      0.0000000000      0.0000000000
+[unit cell]   a2 :       0.0000000000     20.0000000000      0.0000000000
+[unit cell]   a3 :       0.0000000000      0.0000000000     20.0000000000
+[unit cell] reciprocal lattice vectors
+[unit cell]   b1 :       0.3141592654      0.0000000000      0.0000000000
+[unit cell]   b2 :       0.0000000000      0.3141592654      0.0000000000
+[unit cell]   b3 :       0.0000000000      0.0000000000      0.3141592654
+[unit cell] 
+[unit cell] unit cell volume :      8000.00000000 [a.u.^3]
+[unit cell] 1/sqrt(omega)    :         0.01118034
+[unit cell] MT volume        :       561.76168497 ( 7.02%)
+[unit cell] IT volume        :      7438.23831503 (92.98%)
+[unit cell] 
+[unit cell] number of atom types : 1
+[unit cell] type id : 0 symbol :  C mt_radius :   1.307487 num_atoms : 60
+[unit cell] total number of atoms : 60
+[unit cell] number of symmetry classes : 3
+[unit cell] 
+[unit cell] atom id  type id  class id             position                      vector_field
+[unit cell] ------------------------------------------------------------------------------------------
+[unit cell]      0        0        0      0.07006   0.66450   0.00000      0.00000   0.00000   0.00000
+[unit cell]      1        0        0      0.33550   0.00000   0.07006      0.00000   0.00000   0.00000
+[unit cell]      2        0        0      0.33550   0.00000   0.92994      0.00000   0.00000   0.00000
+[unit cell]      3        0        0      0.66450   0.00000   0.07006      0.00000   0.00000   0.00000
+[unit cell]      4        0        0      0.66450   0.00000   0.92994      0.00000   0.00000   0.00000
+[unit cell]      5        0        0      0.00000   0.07006   0.66450      0.00000   0.00000   0.00000
+[unit cell]      6        0        0      0.00000   0.92994   0.66450      0.00000   0.00000   0.00000
+[unit cell]      7        0        0      0.00000   0.07006   0.33550      0.00000   0.00000   0.00000
+[unit cell]      8        0        0      0.00000   0.92994   0.33550      0.00000   0.00000   0.00000
+[unit cell]      9        0        0      0.92994   0.66450   0.00000      0.00000   0.00000   0.00000
+[unit cell]     10        0        0      0.07006   0.33550   0.00000      0.00000   0.00000   0.00000
+[unit cell]     11        0        0      0.92994   0.33550   0.00000      0.00000   0.00000   0.00000
+[unit cell]     12        0        1      0.14147   0.70358   0.11453      0.00000   0.00000   0.00000
+[unit cell]     13        0        1      0.29642   0.11453   0.14147      0.00000   0.00000   0.00000
+[unit cell]     14        0        1      0.29642   0.88547   0.85853      0.00000   0.00000   0.00000
+[unit cell]     15        0        1      0.70358   0.88547   0.14147      0.00000   0.00000   0.00000
+[unit cell]     16        0        1      0.70358   0.11453   0.85853      0.00000   0.00000   0.00000
+[unit cell]     17        0        1      0.11453   0.14147   0.70358      0.00000   0.00000   0.00000
+[unit cell]     18        0        1      0.88547   0.85853   0.70358      0.00000   0.00000   0.00000
+[unit cell]     19        0        1      0.88547   0.14147   0.29642      0.00000   0.00000   0.00000
+[unit cell]     20        0        1      0.11453   0.85853   0.29642      0.00000   0.00000   0.00000
+[unit cell]     21        0        1      0.14147   0.70358   0.88547      0.00000   0.00000   0.00000
+[unit cell]     22        0        1      0.85853   0.70358   0.11453      0.00000   0.00000   0.00000
+[unit cell]     23        0        1      0.14147   0.29642   0.11453      0.00000   0.00000   0.00000
+[unit cell]     24        0        1      0.85853   0.29642   0.88547      0.00000   0.00000   0.00000
+[unit cell]     25        0        1      0.70358   0.88547   0.85853      0.00000   0.00000   0.00000
+[unit cell]     26        0        1      0.70358   0.11453   0.14147      0.00000   0.00000   0.00000
+[unit cell]     27        0        1      0.29642   0.11453   0.85853      0.00000   0.00000   0.00000
+[unit cell]     28        0        1      0.29642   0.88547   0.14147      0.00000   0.00000   0.00000
+[unit cell]     29        0        1      0.88547   0.85853   0.29642      0.00000   0.00000   0.00000
+[unit cell]     30        0        1      0.11453   0.14147   0.29642      0.00000   0.00000   0.00000
+[unit cell]     31        0        1      0.11453   0.85853   0.70358      0.00000   0.00000   0.00000
+[unit cell]     32        0        1      0.88547   0.14147   0.70358      0.00000   0.00000   0.00000
+[unit cell]     33        0        1      0.85853   0.29642   0.11453      0.00000   0.00000   0.00000
+[unit cell]     34        0        1      0.14147   0.29642   0.88547      0.00000   0.00000   0.00000
+[unit cell]     35        0        1      0.85853   0.70358   0.88547      0.00000   0.00000   0.00000
+[unit cell]     36        0        2      0.24926   0.77768   0.07006      0.00000   0.00000   0.00000
+[unit cell]     37        0        2      0.22232   0.07006   0.24926      0.00000   0.00000   0.00000
+[unit cell]     38        0        2      0.22232   0.92994   0.75074      0.00000   0.00000   0.00000
+[unit cell]     39        0        2      0.77768   0.92994   0.24926      0.00000   0.00000   0.00000
+[unit cell]     40        0        2      0.77768   0.07006   0.75074      0.00000   0.00000   0.00000
+[unit cell]     41        0        2      0.07006   0.24926   0.77768      0.00000   0.00000   0.00000
+[unit cell]     42        0        2      0.92994   0.75074   0.77768      0.00000   0.00000   0.00000
+[unit cell]     43        0        2      0.92994   0.24926   0.22232      0.00000   0.00000   0.00000
+[unit cell]     44        0        2      0.07006   0.75074   0.22232      0.00000   0.00000   0.00000
+[unit cell]     45        0        2      0.24926   0.77768   0.92994      0.00000   0.00000   0.00000
+[unit cell]     46        0        2      0.75074   0.77768   0.07006      0.00000   0.00000   0.00000
+[unit cell]     47        0        2      0.24926   0.22232   0.07006      0.00000   0.00000   0.00000
+[unit cell]     48        0        2      0.75074   0.22232   0.92994      0.00000   0.00000   0.00000
+[unit cell]     49        0        2      0.77768   0.92994   0.75074      0.00000   0.00000   0.00000
+[unit cell]     50        0        2      0.77768   0.07006   0.24926      0.00000   0.00000   0.00000
+[unit cell]     51        0        2      0.22232   0.07006   0.75074      0.00000   0.00000   0.00000
+[unit cell]     52        0        2      0.22232   0.92994   0.24926      0.00000   0.00000   0.00000
+[unit cell]     53        0        2      0.92994   0.75074   0.22232      0.00000   0.00000   0.00000
+[unit cell]     54        0        2      0.07006   0.24926   0.22232      0.00000   0.00000   0.00000
+[unit cell]     55        0        2      0.07006   0.75074   0.77768      0.00000   0.00000   0.00000
+[unit cell]     56        0        2      0.92994   0.24926   0.77768      0.00000   0.00000   0.00000
+[unit cell]     57        0        2      0.75074   0.22232   0.07006      0.00000   0.00000   0.00000
+[unit cell]     58        0        2      0.24926   0.22232   0.92994      0.00000   0.00000   0.00000
+[unit cell]     59        0        2      0.75074   0.77768   0.92994      0.00000   0.00000   0.00000
+[unit cell] 
+[unit cell] atom id         position (Cartesian, a.u.)
+[unit cell] ---------------------------------------------
+[unit cell]      0       1.401270   13.290074    0.000000
+[unit cell]      1       6.709926    0.000000    1.401270
+[unit cell]      2       6.709926    0.000000   18.598730
+[unit cell]      3      13.290074    0.000000    1.401270
+[unit cell]      4      13.290074    0.000000   18.598730
+[unit cell]      5       0.000000    1.401270   13.290074
+[unit cell]      6       0.000000   18.598730   13.290074
+[unit cell]      7       0.000000    1.401270    6.709926
+[unit cell]      8       0.000000   18.598730    6.709926
+[unit cell]      9      18.598730   13.290074    0.000000
+[unit cell]     10       1.401270    6.709926    0.000000
+[unit cell]     11      18.598730    6.709926    0.000000
+[unit cell]     12       2.829487   14.071551    2.290537
+[unit cell]     13       5.928449    2.290537    2.829487
+[unit cell]     14       5.928449   17.709463   17.170513
+[unit cell]     15      14.071551   17.709463    2.829487
+[unit cell]     16      14.071551    2.290537   17.170513
+[unit cell]     17       2.290537    2.829487   14.071551
+[unit cell]     18      17.709463   17.170513   14.071551
+[unit cell]     19      17.709463    2.829487    5.928449
+[unit cell]     20       2.290537   17.170513    5.928449
+[unit cell]     21       2.829487   14.071551   17.709463
+[unit cell]     22      17.170513   14.071551    2.290537
+[unit cell]     23       2.829487    5.928449    2.290537
+[unit cell]     24      17.170513    5.928449   17.709463
+[unit cell]     25      14.071551   17.709463   17.170513
+[unit cell]     26      14.071551    2.290537    2.829487
+[unit cell]     27       5.928449    2.290537   17.170513
+[unit cell]     28       5.928449   17.709463    2.829487
+[unit cell]     29      17.709463   17.170513    5.928449
+[unit cell]     30       2.290537    2.829487    5.928449
+[unit cell]     31       2.290537   17.170513   14.071551
+[unit cell]     32      17.709463    2.829487   14.071551
+[unit cell]     33      17.170513    5.928449    2.290537
+[unit cell]     34       2.829487    5.928449   17.709463
+[unit cell]     35      17.170513   14.071551   17.709463
+[unit cell]     36       4.985286   15.553663    1.401270
+[unit cell]     37       4.446337    1.401270    4.985286
+[unit cell]     38       4.446337   18.598730   15.014714
+[unit cell]     39      15.553663   18.598730    4.985286
+[unit cell]     40      15.553663    1.401270   15.014714
+[unit cell]     41       1.401270    4.985286   15.553663
+[unit cell]     42      18.598730   15.014714   15.553663
+[unit cell]     43      18.598730    4.985286    4.446337
+[unit cell]     44       1.401270   15.014714    4.446337
+[unit cell]     45       4.985286   15.553663   18.598730
+[unit cell]     46      15.014714   15.553663    1.401270
+[unit cell]     47       4.985286    4.446337    1.401270
+[unit cell]     48      15.014714    4.446337   18.598730
+[unit cell]     49      15.553663   18.598730   15.014714
+[unit cell]     50      15.553663    1.401270    4.985286
+[unit cell]     51       4.446337    1.401270   15.014714
+[unit cell]     52       4.446337   18.598730    4.985286
+[unit cell]     53      18.598730   15.014714    4.446337
+[unit cell]     54       1.401270    4.985286    4.446337
+[unit cell]     55       1.401270   15.014714   15.553663
+[unit cell]     56      18.598730    4.985286   15.553663
+[unit cell]     57      15.014714    4.446337    1.401270
+[unit cell]     58       4.985286    4.446337   18.598730
+[unit cell]     59      15.014714   15.553663   18.598730
+[unit cell] 
+[unit cell] class id : 0 atom id : 0 1 2 3 4 5 6 7 8 9 10 11 
+[unit cell] class id : 1 atom id : 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 
+[unit cell] class id : 2 atom id : 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 
+[unit cell] 
+[unit cell] minimum bond length:     2.752604
+[unit cell] 
+[sym] space group number   : 200
+[sym] international symbol : Pm-3
+[sym] Hall symbol          : -P 2 2 3
+[sym] space group transformation matrix : 
+[sym]   1.0000  0.0000  0.0000
+[sym]   0.0000  1.0000  0.0000
+[sym]   0.0000  0.0000  1.0000
+[sym] space group origin shift : 
+[sym]   0.0000  0.0000  0.0000
+[sym] number of space group operations  : 24
+[sym] number of magnetic group operations : 24
+[sym] metric tensor error: 0.0000e+00
+[sym] rotation matrix error: 0.0000e+00
+[sym] 
+[sym] symmetry operations 
+[sym] 
+[sym] isym : 0
+[sym] R :   1  0  0
+[sym]       0  1  0
+[sym]       0  0  1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 1
+[sym] R :  -1  0  0
+[sym]       0 -1  0
+[sym]       0  0 -1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 2
+[sym] R :  -1  0  0
+[sym]       0 -1  0
+[sym]       0  0  1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 3
+[sym] R :   1  0  0
+[sym]       0  1  0
+[sym]       0  0 -1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 4
+[sym] R :   1  0  0
+[sym]       0 -1  0
+[sym]       0  0 -1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 5
+[sym] R :  -1  0  0
+[sym]       0  1  0
+[sym]       0  0  1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 6
+[sym] R :  -1  0  0
+[sym]       0  1  0
+[sym]       0  0 -1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 7
+[sym] R :   1  0  0
+[sym]       0 -1  0
+[sym]       0  0  1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 8
+[sym] R :   0  0  1
+[sym]       1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 9
+[sym] R :   0  0 -1
+[sym]      -1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 10
+[sym] R :   0  0  1
+[sym]      -1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 11
+[sym] R :   0  0 -1
+[sym]       1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 12
+[sym] R :   0  0 -1
+[sym]       1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 13
+[sym] R :   0  0  1
+[sym]      -1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 14
+[sym] R :   0  0 -1
+[sym]      -1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 15
+[sym] R :   0  0  1
+[sym]       1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 16
+[sym] R :   0  1  0
+[sym]       0  0  1
+[sym]       1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 17
+[sym] R :   0 -1  0
+[sym]       0  0 -1
+[sym]      -1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 18
+[sym] R :   0 -1  0
+[sym]       0  0  1
+[sym]      -1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 19
+[sym] R :   0  1  0
+[sym]       0  0 -1
+[sym]       1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 20
+[sym] R :   0 -1  0
+[sym]       0  0 -1
+[sym]       1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 21
+[sym] R :   0  1  0
+[sym]       0  0  1
+[sym]      -1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 22
+[sym] R :   0  1  0
+[sym]       0  0 -1
+[sym]      -1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 23
+[sym] R :   0 -1  0
+[sym]       0  0  1
+[sym]       1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[atom type] label          : C
+[atom type] --------------------------------------------------------------------------------
+[atom type] symbol         : C
+[atom type] name           : carbon
+[atom type] zn             : 6
+[atom type] mass           : 12.0107
+[atom type] mt_radius      : 1.30749
+[atom type] num_mt_points  : 1500
+[atom type] grid_origin    : 1e-06
+[atom type] grid_name      : exponential
+[atom type] 
+[atom type] number of core electrons    : 0
+[atom type] number of valence electrons : 6
+[atom type] 
+[atom type] atomic levels
+[atom type] n: 1, l: 0, k: 1, occ: 2, core: 0
+[atom type] n: 2, l: 0, k: 1, occ: 2, core: 0
+[atom type] n: 2, l: 1, k: 1, occ: 1, core: 0
+[atom type] n: 2, l: 1, k: 2, occ: 1, core: 0
+[atom type] 
+[atom type] local orbitals
+[atom type] [{l: 0, n: 1, enu: -9.85341, dme: 0, auto: 1}, {l: 0, n: 1, enu: -9.85341, dme: 1, auto: 1}]
+[atom type] [{l: 0, n: 2, enu: 15.124, dme: 0, auto: 1}, {l: 0, n: 2, enu: 15.124, dme: 1, auto: 1}]
+[atom type] [{l: 0, n: 1, enu: -9.85341, dme: 1, auto: 1}, {l: 0, n: 1, enu: -9.85341, dme: 2, auto: 1}]
+[atom type] [{l: 0, n: 2, enu: 15.124, dme: 1, auto: 1}, {l: 0, n: 2, enu: 15.124, dme: 2, auto: 1}]
+[atom type] [{l: 0, n: 3, enu: 63.8984, dme: 0, auto: 1}, {l: 0, n: 3, enu: 63.8984, dme: 1, auto: 1}]
+[atom type] [{l: 0, n: 3, enu: 63.8984, dme: 1, auto: 1}, {l: 0, n: 3, enu: 63.8984, dme: 2, auto: 1}]
+[atom type] [{l: 1, n: 2, enu: 7.48172, dme: 0, auto: 1}, {l: 1, n: 2, enu: 7.48172, dme: 1, auto: 1}]
+[atom type] [{l: 1, n: 2, enu: 7.48172, dme: 1, auto: 1}, {l: 1, n: 2, enu: 7.48172, dme: 2, auto: 1}]
+[atom type] [{l: 1, n: 3, enu: 43.4619, dme: 0, auto: 1}, {l: 1, n: 3, enu: 43.4619, dme: 1, auto: 1}]
+[atom type] [{l: 1, n: 3, enu: 43.4619, dme: 1, auto: 1}, {l: 1, n: 3, enu: 43.4619, dme: 2, auto: 1}]
+[atom type] [{l: 2, n: 3, enu: 21.193, dme: 0, auto: 1}, {l: 2, n: 3, enu: 21.193, dme: 1, auto: 1}]
+[atom type] [{l: 2, n: 3, enu: 21.193, dme: 1, auto: 1}, {l: 2, n: 3, enu: 21.193, dme: 2, auto: 1}]
+[atom type] 
+[atom type] augmented wave basis
+[atom type] [{l: 0, n: 2, enu: 0.15, dme: 0, auto: 1}, {l: 0, n: 2, enu: 0.15, dme: 1, auto: 1}]
+[atom type] [{l: 1, n: 2, enu: 0.15, dme: 0, auto: 1}, {l: 1, n: 2, enu: 0.15, dme: 1, auto: 1}]
+[atom type] [{l: 2, n: 3, enu: 0.15, dme: 0, auto: 0}, {l: 2, n: 3, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 3, n: 4, enu: 0.15, dme: 0, auto: 0}, {l: 3, n: 4, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 4, n: 5, enu: 0.15, dme: 0, auto: 0}, {l: 4, n: 5, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 5, n: 6, enu: 0.15, dme: 0, auto: 0}, {l: 5, n: 6, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 6, n: 7, enu: 0.15, dme: 0, auto: 0}, {l: 6, n: 7, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 7, n: 8, enu: 0.15, dme: 0, auto: 0}, {l: 7, n: 8, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 8, n: 9, enu: 0.15, dme: 0, auto: 0}, {l: 8, n: 9, enu: 0.15, dme: 1, auto: 0}]
+[atom type] maximum order of aw : 2
+[atom type] 
+[atom type] total number of radial functions : 30
+[atom type] lmax of radial functions         : 8
+[atom type] max. number of radial functions  : 8
+[atom type] total number of basis functions  : 190
+[atom type] number of aw basis functions     : 162
+[atom type] number of lo basis functions     : 28
+[atom type] lmax_apw                         : 8
+[atom type] Hubbard correction               : false
+[atom type] spin-orbit coupling              : false
+[atom type] atomic wave-functions            : 
+[atom type] 
+[info] total nuclear charge               : 360
+[info] number of core electrons           : 0
+[info] number of valence electrons        : 360
+[info] total number of electrons          : 360
+[info] extra charge                       : 0
+[info] total number of aw basis functions : 9720
+[info] total number of lo basis functions : 1680
+[info] number of first-variational states : 216
+[info] number of bands                    : 216
+[info] number of spins                    : 1
+[info] number of magnetic dimensions      : 0
+[info] number of spinor components        : 1
+[info] number of spinors per band index   : 1
+[info] lmax_apw                           : 8
+[info] lmax_rho                           : 8
+[info] lmax_pot                           : 8
+[info] lmax_rf                            : 8
+[info] smearing type                      : gaussian
+[info] smearing width                     : 0.025
+[info] cyclic block size                  : 128
+[info] |G+k| cutoff                       : 5
+[info] symmetry                           : true
+[info] so_correction                      : false
+[info] valence relativity                 : zora
+[info] core relativity                    : Dirac
+[info] standard eigen-value solver        : ELPA
+[info] generalized eigen-value solver     : ELPA
+[info] processing unit                    : GPU
+[info] number of devices                  : 1
+[info]   name                             : NVIDIA GH200 120GB
+[info]   major                            : 9
+[info]   minor                            : 0
+[info]   clockRate                        : 1980000 kHz
+[info]   memoryClockRate                  : 2619000 kHz
+[info]   memoryBusWidth                   : 6144 bits
+[info]   sharedMemPerBlock                : 48 kB
+[info]   totalConstMem                    : 64 kB
+[info]   totalGlobalMem                   : 99090432 kB
+[info]   available memory                 : 88247488 kB
+[info]   l2CacheSize                      : 61440 kB
+[info]   warpSize                         : 32
+[info]   regsPerBlock                     : 65536
+[info]   canMapHostMemory                 : 1
+[info]   concurrentKernels                : 1
+[info]   maxGridSize                      : 2147483647 65535 65535
+[info]   maxThreadsDim                    : 1024 1024 64
+[info]   maxThreadsPerBlock               : 1024
+[info]   maxThreadsPerMultiProcessor      : 2048
+[info]   multiProcessorCount              : 132
+[info]   pciBusID                         : 1
+[info]   pciDeviceID                      : 0
+[info]   pciDomainID                      : 9
+[info]   regsPerMultiprocessor            : 65536
+[info]   asyncEngineCount                 : 3
+[info]   ECCEnabled                       : 1
+[info]   memPitch                         : 2147483647
+[info] 
+[info] iterative solver                   : exact
+[info] number of steps                    : 20
+[info] subspace size                      : 2
+[info] early restart ratio                : 0.5
+[info] precision_wf                       : fp64
+[info] precision_hs                       : fp64
+[info] mixer                              : broyden1
+[info] mixing beta                        : 0.8
+[info] max_history                        : 8
+[info] use_hartree                        : false
+[info] 
+[info] spglib version: 2.5.0
+[info] HDF5 version: 1.14.5
+[info] Libxc version: 6.2.2
+[info] 
+[info] XC functionals
+[info] ==============
+[info] 1) XC_LDA_X : Slater exchange
+[info] P. A. M. Dirac.,  Math. Proc. Cambridge Philos. Soc. 26, 376 (1930) (10.1017/S0305004100016108)
+[info] F. Bloch.,  Z. Phys. 57, 545 (1929) (10.1007/BF01340281)
+[info] 
+[info] 2) XC_LDA_C_PZ : Perdew & Zunger
+[info] J. P. Perdew and A. Zunger.,  Phys. Rev. B 23, 5048 (1981) (10.1103/PhysRevB.23.5048)
+[info] 
++----------------------+
+| new SCF ground state |
++----------------------+
+[print_info] 
+[print_info] total number of k-points : 1
+[print_info] --------------------------------------------------------------------------------
+[print_info] 
+[print_info]   ik                vk                    weight  num_gkvec   gklo_basis_size
+[print_info] --------------------------------------------------------------------------------
+[print_info]    0   0.0000   0.0000   0.0000         1.000000      16879             18559
+[find] density_tol               : 1e-06
+[find] energy_tol                : 1e-08
+[find] iter_solver_tol (initial) : 0.01
+[find] iter_solver_tol (target)  : 1e-13
+[find] num_dft_iter              : 2
+[find] 
+[find] +------------------------------+
+[find] | SCF iteration   0 out of   2|
+[find] +------------------------------+
+[find] 
+[generate_radial_functions] 
+[generate_radial_functions] Linearization energies
+[generate_radial_functions] Atom : C, class id : 0
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 2, auto: 1}
+[generate_radial_functions] 
+[generate_radial_functions] Atom : C, class id : 1
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 2, auto: 1}
+[generate_radial_functions] 
+[generate_radial_functions] Atom : C, class id : 2
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 2, auto: 1}
+[generate_radial_functions] 
+ To use Cannons algorithm, np_cols must be a multiple of np_rows.
+ Switching to elpa Hermitian and scalapack
+ You requested the GPU version, thus the GPU kernel is activated
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+/tmp/rmeli/spack-stage/spack-stage-elpa-2024.03.001-sik7aghyl4ihama5b2kso6ly6gzsdetn/spack-src/src/GPU/CUDA/./cudaFunctions_template.h:401 Error in cudaHostRegister: invalid argument
+ tridi_to_band: top_border_send_buffer:        1773  error in cuda_host_register when registering 
+STOP 1
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)terminate called after throwing an instance of 'whip::exception'
+
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+terminate called after throwing an instance of 'whip::exception'
+  what():  [whip] cudaStreamDestroy returned cudaErrorCudartUnloading (driver shutting down)
+srun: error: nid007373: tasks 22-23: Exited with exit code 255
+srun: Terminating StepId=146850.0
+slurmstepd: error: *** STEP 146850.0 ON nid005219 CANCELLED AT 2025-01-08T11:21:45 ***
+srun: error: nid006640: tasks 6-7: Exited with exit code 255
+srun: error: nid007393: tasks 26-27: Exited with exit code 255
+srun: error: nid006641: task 11: Exited with exit code 255
+srun: error: nid006670: tasks 18-19: Exited with exit code 255
+srun: error: nid005219: task 3: Exited with exit code 255
+srun: error: nid007451: task 30: Exited with exit code 255
+srun: error: nid006644: tasks 14-15: Exited with exit code 255
+srun: error: nid006641: task 10: Exited with exit code 255
+srun: error: nid005219: task 2: Exited with exit code 255
+srun: error: nid007451: task 31: Exited with exit code 255
+srun: error: nid006640: task 4: Terminated
+srun: error: nid006640: task 5: Terminated
+srun: error: nid006670: tasks 16-17: Terminated
+srun: error: nid005219: task 1: Terminated
+srun: error: nid007373: tasks 20-21: Terminated
+srun: error: nid006644: tasks 12-13: Terminated
+srun: error: nid007393: tasks 24-25: Terminated
+srun: error: nid006641: task 9: Terminated
+srun: error: nid005219: task 0: Terminated
+srun: error: nid006641: task 8: Terminated
+srun: error: nid007451: tasks 28-29: Terminated
+srun: Force Terminated StepId=146850.0
