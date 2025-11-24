@@ -1,0 +1,1333 @@
+loading the view [1;36msirius:sirius[0m
+cpu-bind=MASK - nid007393, task  0  0 [20935]: mask 0xffffffffffffffff set
+SIRIUS 7.6.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.6.1
+Warning in function "compose_json" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/context/simulation_parameters.cpp:107
+The following configuration parameters were not recognized and ignored: potential_tol !num_fv_states 
+Warning in function "init_step_function" at /tmp/rmeli/spack-stage/spack-stage-sirius-7.6.1-dj6o7kftqpfnwdhrbr7kwzcsnkz5co5e/spack-src/src/lapw/step_function.hpp:120
+step function gives a wrong volume for IT region
+  difference with exact value : 1.87356e-10
+[info] SIRIUS version : 7.6.1
+[info] git hash       : https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.6.1
+[info] git branch     : release v7.6.1
+[info] build time     : 1980-01-01 12:01:00
+[info] start time     : Wed,  8 Jan 2025 10:43:35
+[info] 
+[info] number of MPI ranks           : 1
+[info] MPI grid                      : 1 1
+[info] maximum number of OMP threads : 63
+[info] number of MPI ranks per node  : 1
+[info] page size (Kb)                : 64
+[info] number of pages               : 13999490
+[info] available memory (GB)         : 854
+[info] 
+[fft] FFT context for density and potential
+[fft] =====================================
+[fft]   comm size                             : 1
+[fft]   plane wave cutoff                     : 20
+[fft]   grid size                             : 135 135 135   total : 2460375
+[fft]   grid limits                           : -67 67   -67 67   -67 67
+[fft]   number of G-vectors within the cutoff : 1080751
+[fft]   local number of G-vectors             : 1080751
+[fft]   number of G-shells                    : 24484
+[fft] 
+[fft] FFT context for coarse grid
+[fft] =====================================
+[fft]   comm size                             : 1
+[fft]   plane wave cutoff                     : 10
+[fft]   grid size                             : 72 72 72   total : 373248
+[fft]   grid limits                           : -35 36   -35 36   -35 36
+[fft]   number of G-vectors within the cutoff : 135043
+[fft]   local number of G-vectors             : 135043
+[fft]   number of G-shells                    : 3317
+[fft] 
+[fft] 
+[unit cell] lattice vectors
+[unit cell]   a1 :      20.0000000000      0.0000000000      0.0000000000
+[unit cell]   a2 :       0.0000000000     20.0000000000      0.0000000000
+[unit cell]   a3 :       0.0000000000      0.0000000000     20.0000000000
+[unit cell] reciprocal lattice vectors
+[unit cell]   b1 :       0.3141592654      0.0000000000      0.0000000000
+[unit cell]   b2 :       0.0000000000      0.3141592654      0.0000000000
+[unit cell]   b3 :       0.0000000000      0.0000000000      0.3141592654
+[unit cell] 
+[unit cell] unit cell volume :      8000.00000000 [a.u.^3]
+[unit cell] 1/sqrt(omega)    :         0.01118034
+[unit cell] MT volume        :       561.76168497 ( 7.02%)
+[unit cell] IT volume        :      7438.23831503 (92.98%)
+[unit cell] 
+[unit cell] number of atom types : 1
+[unit cell] type id : 0 symbol :  C mt_radius :   1.307487 num_atoms : 60
+[unit cell] total number of atoms : 60
+[unit cell] number of symmetry classes : 3
+[unit cell] 
+[unit cell] atom id  type id  class id             position                      vector_field
+[unit cell] ------------------------------------------------------------------------------------------
+[unit cell]      0        0        0      0.07006   0.66450   0.00000      0.00000   0.00000   0.00000
+[unit cell]      1        0        0      0.33550   0.00000   0.07006      0.00000   0.00000   0.00000
+[unit cell]      2        0        0      0.33550   0.00000   0.92994      0.00000   0.00000   0.00000
+[unit cell]      3        0        0      0.66450   0.00000   0.07006      0.00000   0.00000   0.00000
+[unit cell]      4        0        0      0.66450   0.00000   0.92994      0.00000   0.00000   0.00000
+[unit cell]      5        0        0      0.00000   0.07006   0.66450      0.00000   0.00000   0.00000
+[unit cell]      6        0        0      0.00000   0.92994   0.66450      0.00000   0.00000   0.00000
+[unit cell]      7        0        0      0.00000   0.07006   0.33550      0.00000   0.00000   0.00000
+[unit cell]      8        0        0      0.00000   0.92994   0.33550      0.00000   0.00000   0.00000
+[unit cell]      9        0        0      0.92994   0.66450   0.00000      0.00000   0.00000   0.00000
+[unit cell]     10        0        0      0.07006   0.33550   0.00000      0.00000   0.00000   0.00000
+[unit cell]     11        0        0      0.92994   0.33550   0.00000      0.00000   0.00000   0.00000
+[unit cell]     12        0        1      0.14147   0.70358   0.11453      0.00000   0.00000   0.00000
+[unit cell]     13        0        1      0.29642   0.11453   0.14147      0.00000   0.00000   0.00000
+[unit cell]     14        0        1      0.29642   0.88547   0.85853      0.00000   0.00000   0.00000
+[unit cell]     15        0        1      0.70358   0.88547   0.14147      0.00000   0.00000   0.00000
+[unit cell]     16        0        1      0.70358   0.11453   0.85853      0.00000   0.00000   0.00000
+[unit cell]     17        0        1      0.11453   0.14147   0.70358      0.00000   0.00000   0.00000
+[unit cell]     18        0        1      0.88547   0.85853   0.70358      0.00000   0.00000   0.00000
+[unit cell]     19        0        1      0.88547   0.14147   0.29642      0.00000   0.00000   0.00000
+[unit cell]     20        0        1      0.11453   0.85853   0.29642      0.00000   0.00000   0.00000
+[unit cell]     21        0        1      0.14147   0.70358   0.88547      0.00000   0.00000   0.00000
+[unit cell]     22        0        1      0.85853   0.70358   0.11453      0.00000   0.00000   0.00000
+[unit cell]     23        0        1      0.14147   0.29642   0.11453      0.00000   0.00000   0.00000
+[unit cell]     24        0        1      0.85853   0.29642   0.88547      0.00000   0.00000   0.00000
+[unit cell]     25        0        1      0.70358   0.88547   0.85853      0.00000   0.00000   0.00000
+[unit cell]     26        0        1      0.70358   0.11453   0.14147      0.00000   0.00000   0.00000
+[unit cell]     27        0        1      0.29642   0.11453   0.85853      0.00000   0.00000   0.00000
+[unit cell]     28        0        1      0.29642   0.88547   0.14147      0.00000   0.00000   0.00000
+[unit cell]     29        0        1      0.88547   0.85853   0.29642      0.00000   0.00000   0.00000
+[unit cell]     30        0        1      0.11453   0.14147   0.29642      0.00000   0.00000   0.00000
+[unit cell]     31        0        1      0.11453   0.85853   0.70358      0.00000   0.00000   0.00000
+[unit cell]     32        0        1      0.88547   0.14147   0.70358      0.00000   0.00000   0.00000
+[unit cell]     33        0        1      0.85853   0.29642   0.11453      0.00000   0.00000   0.00000
+[unit cell]     34        0        1      0.14147   0.29642   0.88547      0.00000   0.00000   0.00000
+[unit cell]     35        0        1      0.85853   0.70358   0.88547      0.00000   0.00000   0.00000
+[unit cell]     36        0        2      0.24926   0.77768   0.07006      0.00000   0.00000   0.00000
+[unit cell]     37        0        2      0.22232   0.07006   0.24926      0.00000   0.00000   0.00000
+[unit cell]     38        0        2      0.22232   0.92994   0.75074      0.00000   0.00000   0.00000
+[unit cell]     39        0        2      0.77768   0.92994   0.24926      0.00000   0.00000   0.00000
+[unit cell]     40        0        2      0.77768   0.07006   0.75074      0.00000   0.00000   0.00000
+[unit cell]     41        0        2      0.07006   0.24926   0.77768      0.00000   0.00000   0.00000
+[unit cell]     42        0        2      0.92994   0.75074   0.77768      0.00000   0.00000   0.00000
+[unit cell]     43        0        2      0.92994   0.24926   0.22232      0.00000   0.00000   0.00000
+[unit cell]     44        0        2      0.07006   0.75074   0.22232      0.00000   0.00000   0.00000
+[unit cell]     45        0        2      0.24926   0.77768   0.92994      0.00000   0.00000   0.00000
+[unit cell]     46        0        2      0.75074   0.77768   0.07006      0.00000   0.00000   0.00000
+[unit cell]     47        0        2      0.24926   0.22232   0.07006      0.00000   0.00000   0.00000
+[unit cell]     48        0        2      0.75074   0.22232   0.92994      0.00000   0.00000   0.00000
+[unit cell]     49        0        2      0.77768   0.92994   0.75074      0.00000   0.00000   0.00000
+[unit cell]     50        0        2      0.77768   0.07006   0.24926      0.00000   0.00000   0.00000
+[unit cell]     51        0        2      0.22232   0.07006   0.75074      0.00000   0.00000   0.00000
+[unit cell]     52        0        2      0.22232   0.92994   0.24926      0.00000   0.00000   0.00000
+[unit cell]     53        0        2      0.92994   0.75074   0.22232      0.00000   0.00000   0.00000
+[unit cell]     54        0        2      0.07006   0.24926   0.22232      0.00000   0.00000   0.00000
+[unit cell]     55        0        2      0.07006   0.75074   0.77768      0.00000   0.00000   0.00000
+[unit cell]     56        0        2      0.92994   0.24926   0.77768      0.00000   0.00000   0.00000
+[unit cell]     57        0        2      0.75074   0.22232   0.07006      0.00000   0.00000   0.00000
+[unit cell]     58        0        2      0.24926   0.22232   0.92994      0.00000   0.00000   0.00000
+[unit cell]     59        0        2      0.75074   0.77768   0.92994      0.00000   0.00000   0.00000
+[unit cell] 
+[unit cell] atom id         position (Cartesian, a.u.)
+[unit cell] ---------------------------------------------
+[unit cell]      0       1.401270   13.290074    0.000000
+[unit cell]      1       6.709926    0.000000    1.401270
+[unit cell]      2       6.709926    0.000000   18.598730
+[unit cell]      3      13.290074    0.000000    1.401270
+[unit cell]      4      13.290074    0.000000   18.598730
+[unit cell]      5       0.000000    1.401270   13.290074
+[unit cell]      6       0.000000   18.598730   13.290074
+[unit cell]      7       0.000000    1.401270    6.709926
+[unit cell]      8       0.000000   18.598730    6.709926
+[unit cell]      9      18.598730   13.290074    0.000000
+[unit cell]     10       1.401270    6.709926    0.000000
+[unit cell]     11      18.598730    6.709926    0.000000
+[unit cell]     12       2.829487   14.071551    2.290537
+[unit cell]     13       5.928449    2.290537    2.829487
+[unit cell]     14       5.928449   17.709463   17.170513
+[unit cell]     15      14.071551   17.709463    2.829487
+[unit cell]     16      14.071551    2.290537   17.170513
+[unit cell]     17       2.290537    2.829487   14.071551
+[unit cell]     18      17.709463   17.170513   14.071551
+[unit cell]     19      17.709463    2.829487    5.928449
+[unit cell]     20       2.290537   17.170513    5.928449
+[unit cell]     21       2.829487   14.071551   17.709463
+[unit cell]     22      17.170513   14.071551    2.290537
+[unit cell]     23       2.829487    5.928449    2.290537
+[unit cell]     24      17.170513    5.928449   17.709463
+[unit cell]     25      14.071551   17.709463   17.170513
+[unit cell]     26      14.071551    2.290537    2.829487
+[unit cell]     27       5.928449    2.290537   17.170513
+[unit cell]     28       5.928449   17.709463    2.829487
+[unit cell]     29      17.709463   17.170513    5.928449
+[unit cell]     30       2.290537    2.829487    5.928449
+[unit cell]     31       2.290537   17.170513   14.071551
+[unit cell]     32      17.709463    2.829487   14.071551
+[unit cell]     33      17.170513    5.928449    2.290537
+[unit cell]     34       2.829487    5.928449   17.709463
+[unit cell]     35      17.170513   14.071551   17.709463
+[unit cell]     36       4.985286   15.553663    1.401270
+[unit cell]     37       4.446337    1.401270    4.985286
+[unit cell]     38       4.446337   18.598730   15.014714
+[unit cell]     39      15.553663   18.598730    4.985286
+[unit cell]     40      15.553663    1.401270   15.014714
+[unit cell]     41       1.401270    4.985286   15.553663
+[unit cell]     42      18.598730   15.014714   15.553663
+[unit cell]     43      18.598730    4.985286    4.446337
+[unit cell]     44       1.401270   15.014714    4.446337
+[unit cell]     45       4.985286   15.553663   18.598730
+[unit cell]     46      15.014714   15.553663    1.401270
+[unit cell]     47       4.985286    4.446337    1.401270
+[unit cell]     48      15.014714    4.446337   18.598730
+[unit cell]     49      15.553663   18.598730   15.014714
+[unit cell]     50      15.553663    1.401270    4.985286
+[unit cell]     51       4.446337    1.401270   15.014714
+[unit cell]     52       4.446337   18.598730    4.985286
+[unit cell]     53      18.598730   15.014714    4.446337
+[unit cell]     54       1.401270    4.985286    4.446337
+[unit cell]     55       1.401270   15.014714   15.553663
+[unit cell]     56      18.598730    4.985286   15.553663
+[unit cell]     57      15.014714    4.446337    1.401270
+[unit cell]     58       4.985286    4.446337   18.598730
+[unit cell]     59      15.014714   15.553663   18.598730
+[unit cell] 
+[unit cell] class id : 0 atom id : 0 1 2 3 4 5 6 7 8 9 10 11 
+[unit cell] class id : 1 atom id : 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 
+[unit cell] class id : 2 atom id : 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 
+[unit cell] 
+[unit cell] minimum bond length:     2.752604
+[unit cell] 
+[sym] space group number   : 200
+[sym] international symbol : Pm-3
+[sym] Hall symbol          : -P 2 2 3
+[sym] space group transformation matrix : 
+[sym]   1.0000  0.0000  0.0000
+[sym]   0.0000  1.0000  0.0000
+[sym]   0.0000  0.0000  1.0000
+[sym] space group origin shift : 
+[sym]   0.0000  0.0000  0.0000
+[sym] number of space group operations  : 24
+[sym] number of magnetic group operations : 24
+[sym] metric tensor error: 0.0000e+00
+[sym] rotation matrix error: 0.0000e+00
+[sym] 
+[sym] symmetry operations 
+[sym] 
+[sym] isym : 0
+[sym] R :   1  0  0
+[sym]       0  1  0
+[sym]       0  0  1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 1
+[sym] R :  -1  0  0
+[sym]       0 -1  0
+[sym]       0  0 -1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 2
+[sym] R :  -1  0  0
+[sym]       0 -1  0
+[sym]       0  0  1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 3
+[sym] R :   1  0  0
+[sym]       0  1  0
+[sym]       0  0 -1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 4
+[sym] R :   1  0  0
+[sym]       0 -1  0
+[sym]       0  0 -1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 5
+[sym] R :  -1  0  0
+[sym]       0  1  0
+[sym]       0  0  1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 6
+[sym] R :  -1  0  0
+[sym]       0  1  0
+[sym]       0  0 -1
+[sym] Rc:  -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 7
+[sym] R :   1  0  0
+[sym]       0 -1  0
+[sym]       0  0  1
+[sym] Rc:   1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 8
+[sym] R :   0  0  1
+[sym]       1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 9
+[sym] R :   0  0 -1
+[sym]      -1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 10
+[sym] R :   0  0  1
+[sym]      -1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 11
+[sym] R :   0  0 -1
+[sym]       1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 12
+[sym] R :   0  0 -1
+[sym]       1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 13
+[sym] R :   0  0  1
+[sym]      -1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 14
+[sym] R :   0  0 -1
+[sym]      -1  0  0
+[sym]       0  1  0
+[sym] Rc:   0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 15
+[sym] R :   0  0  1
+[sym]       1  0  0
+[sym]       0 -1  0
+[sym] Rc:   0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym]       0.0000 -1.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 16
+[sym] R :   0  1  0
+[sym]       0  0  1
+[sym]       1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 17
+[sym] R :   0 -1  0
+[sym]       0  0 -1
+[sym]      -1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 18
+[sym] R :   0 -1  0
+[sym]       0  0  1
+[sym]      -1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 19
+[sym] R :   0  1  0
+[sym]       0  0 -1
+[sym]       1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 20
+[sym] R :   0 -1  0
+[sym]       0  0 -1
+[sym]       1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 21
+[sym] R :   0  1  0
+[sym]       0  0  1
+[sym]      -1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[sym] isym : 22
+[sym] R :   0  1  0
+[sym]       0  0 -1
+[sym]      -1  0  0
+[sym] Rc:   0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000 -1.0000
+[sym]      -1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper:  1
+[sym] 
+[sym] isym : 23
+[sym] R :   0 -1  0
+[sym]       0  0  1
+[sym]       1  0  0
+[sym] Rc:   0.0000 -1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym]       1.0000  0.0000  0.0000
+[sym] t :   0.0000  0.0000  0.0000
+[sym] S :   1.0000  0.0000  0.0000
+[sym]       0.0000  1.0000  0.0000
+[sym]       0.0000  0.0000  1.0000
+[sym] proper: -1
+[sym] 
+[atom type] label          : C
+[atom type] --------------------------------------------------------------------------------
+[atom type] symbol         : C
+[atom type] name           : carbon
+[atom type] zn             : 6
+[atom type] mass           : 12.0107
+[atom type] mt_radius      : 1.30749
+[atom type] num_mt_points  : 1500
+[atom type] grid_origin    : 1e-06
+[atom type] grid_name      : exponential
+[atom type] 
+[atom type] number of core electrons    : 0
+[atom type] number of valence electrons : 6
+[atom type] 
+[atom type] atomic levels
+[atom type] n: 1, l: 0, k: 1, occ: 2, core: 0
+[atom type] n: 2, l: 0, k: 1, occ: 2, core: 0
+[atom type] n: 2, l: 1, k: 1, occ: 1, core: 0
+[atom type] n: 2, l: 1, k: 2, occ: 1, core: 0
+[atom type] 
+[atom type] local orbitals
+[atom type] [{l: 0, n: 1, enu: -9.85341, dme: 0, auto: 1}, {l: 0, n: 1, enu: -9.85341, dme: 1, auto: 1}]
+[atom type] [{l: 0, n: 2, enu: 15.124, dme: 0, auto: 1}, {l: 0, n: 2, enu: 15.124, dme: 1, auto: 1}]
+[atom type] [{l: 0, n: 1, enu: -9.85341, dme: 1, auto: 1}, {l: 0, n: 1, enu: -9.85341, dme: 2, auto: 1}]
+[atom type] [{l: 0, n: 2, enu: 15.124, dme: 1, auto: 1}, {l: 0, n: 2, enu: 15.124, dme: 2, auto: 1}]
+[atom type] [{l: 0, n: 3, enu: 63.8984, dme: 0, auto: 1}, {l: 0, n: 3, enu: 63.8984, dme: 1, auto: 1}]
+[atom type] [{l: 0, n: 3, enu: 63.8984, dme: 1, auto: 1}, {l: 0, n: 3, enu: 63.8984, dme: 2, auto: 1}]
+[atom type] [{l: 1, n: 2, enu: 7.48172, dme: 0, auto: 1}, {l: 1, n: 2, enu: 7.48172, dme: 1, auto: 1}]
+[atom type] [{l: 1, n: 2, enu: 7.48172, dme: 1, auto: 1}, {l: 1, n: 2, enu: 7.48172, dme: 2, auto: 1}]
+[atom type] [{l: 1, n: 3, enu: 43.4619, dme: 0, auto: 1}, {l: 1, n: 3, enu: 43.4619, dme: 1, auto: 1}]
+[atom type] [{l: 1, n: 3, enu: 43.4619, dme: 1, auto: 1}, {l: 1, n: 3, enu: 43.4619, dme: 2, auto: 1}]
+[atom type] [{l: 2, n: 3, enu: 21.193, dme: 0, auto: 1}, {l: 2, n: 3, enu: 21.193, dme: 1, auto: 1}]
+[atom type] [{l: 2, n: 3, enu: 21.193, dme: 1, auto: 1}, {l: 2, n: 3, enu: 21.193, dme: 2, auto: 1}]
+[atom type] 
+[atom type] augmented wave basis
+[atom type] [{l: 0, n: 2, enu: 0.15, dme: 0, auto: 1}, {l: 0, n: 2, enu: 0.15, dme: 1, auto: 1}]
+[atom type] [{l: 1, n: 2, enu: 0.15, dme: 0, auto: 1}, {l: 1, n: 2, enu: 0.15, dme: 1, auto: 1}]
+[atom type] [{l: 2, n: 3, enu: 0.15, dme: 0, auto: 0}, {l: 2, n: 3, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 3, n: 4, enu: 0.15, dme: 0, auto: 0}, {l: 3, n: 4, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 4, n: 5, enu: 0.15, dme: 0, auto: 0}, {l: 4, n: 5, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 5, n: 6, enu: 0.15, dme: 0, auto: 0}, {l: 5, n: 6, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 6, n: 7, enu: 0.15, dme: 0, auto: 0}, {l: 6, n: 7, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 7, n: 8, enu: 0.15, dme: 0, auto: 0}, {l: 7, n: 8, enu: 0.15, dme: 1, auto: 0}]
+[atom type] [{l: 8, n: 9, enu: 0.15, dme: 0, auto: 0}, {l: 8, n: 9, enu: 0.15, dme: 1, auto: 0}]
+[atom type] maximum order of aw : 2
+[atom type] 
+[atom type] total number of radial functions : 30
+[atom type] lmax of radial functions         : 8
+[atom type] max. number of radial functions  : 8
+[atom type] total number of basis functions  : 190
+[atom type] number of aw basis functions     : 162
+[atom type] number of lo basis functions     : 28
+[atom type] lmax_apw                         : 8
+[atom type] Hubbard correction               : false
+[atom type] spin-orbit coupling              : false
+[atom type] atomic wave-functions            : 
+[atom type] 
+[info] total nuclear charge               : 360
+[info] number of core electrons           : 0
+[info] number of valence electrons        : 360
+[info] total number of electrons          : 360
+[info] extra charge                       : 0
+[info] total number of aw basis functions : 9720
+[info] total number of lo basis functions : 1680
+[info] number of first-variational states : 216
+[info] number of bands                    : 216
+[info] number of spins                    : 1
+[info] number of magnetic dimensions      : 0
+[info] number of spinor components        : 1
+[info] number of spinors per band index   : 1
+[info] lmax_apw                           : 8
+[info] lmax_rho                           : 8
+[info] lmax_pot                           : 8
+[info] lmax_rf                            : 8
+[info] smearing type                      : gaussian
+[info] smearing width                     : 0.025
+[info] cyclic block size                  : 128
+[info] |G+k| cutoff                       : 5
+[info] symmetry                           : true
+[info] so_correction                      : false
+[info] valence relativity                 : zora
+[info] core relativity                    : Dirac
+[info] standard eigen-value solver        : ELPA
+[info] generalized eigen-value solver     : ELPA
+[info] processing unit                    : GPU
+[info] number of devices                  : 1
+[info]   name                             : NVIDIA GH200 120GB
+[info]   major                            : 9
+[info]   minor                            : 0
+[info]   clockRate                        : 1980000 kHz
+[info]   memoryClockRate                  : 2619000 kHz
+[info]   memoryBusWidth                   : 6144 bits
+[info]   sharedMemPerBlock                : 48 kB
+[info]   totalConstMem                    : 64 kB
+[info]   totalGlobalMem                   : 99090432 kB
+[info]   available memory                 : 88103616 kB
+[info]   l2CacheSize                      : 61440 kB
+[info]   warpSize                         : 32
+[info]   regsPerBlock                     : 65536
+[info]   canMapHostMemory                 : 1
+[info]   concurrentKernels                : 1
+[info]   maxGridSize                      : 2147483647 65535 65535
+[info]   maxThreadsDim                    : 1024 1024 64
+[info]   maxThreadsPerBlock               : 1024
+[info]   maxThreadsPerMultiProcessor      : 2048
+[info]   multiProcessorCount              : 132
+[info]   pciBusID                         : 1
+[info]   pciDeviceID                      : 0
+[info]   pciDomainID                      : 9
+[info]   regsPerMultiprocessor            : 65536
+[info]   asyncEngineCount                 : 3
+[info]   ECCEnabled                       : 1
+[info]   memPitch                         : 2147483647
+[info] 
+[info] iterative solver                   : exact
+[info] number of steps                    : 20
+[info] subspace size                      : 2
+[info] early restart ratio                : 0.5
+[info] precision_wf                       : fp64
+[info] precision_hs                       : fp64
+[info] mixer                              : broyden1
+[info] mixing beta                        : 0.8
+[info] max_history                        : 8
+[info] use_hartree                        : false
+[info] 
+[info] spglib version: 2.5.0
+[info] HDF5 version: 1.14.5
+[info] Libxc version: 6.2.2
+[info] 
+[info] XC functionals
+[info] ==============
+[info] 1) XC_LDA_X : Slater exchange
+[info] P. A. M. Dirac.,  Math. Proc. Cambridge Philos. Soc. 26, 376 (1930) (10.1017/S0305004100016108)
+[info] F. Bloch.,  Z. Phys. 57, 545 (1929) (10.1007/BF01340281)
+[info] 
+[info] 2) XC_LDA_C_PZ : Perdew & Zunger
+[info] J. P. Perdew and A. Zunger.,  Phys. Rev. B 23, 5048 (1981) (10.1103/PhysRevB.23.5048)
+[info] 
++----------------------+
+| new SCF ground state |
++----------------------+
+[print_info] 
+[print_info] total number of k-points : 1
+[print_info] --------------------------------------------------------------------------------
+[print_info] 
+[print_info]   ik                vk                    weight  num_gkvec   gklo_basis_size
+[print_info] --------------------------------------------------------------------------------
+[print_info]    0   0.0000   0.0000   0.0000         1.000000      16879             18559
+[find] density_tol               : 1e-06
+[find] energy_tol                : 1e-08
+[find] iter_solver_tol (initial) : 0.01
+[find] iter_solver_tol (target)  : 1e-13
+[find] num_dft_iter              : 2
+[find] 
+[find] +------------------------------+
+[find] | SCF iteration   0 out of   2|
+[find] +------------------------------+
+[find] 
+[generate_radial_functions] 
+[generate_radial_functions] Linearization energies
+[generate_radial_functions] Atom : C, class id : 0
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.24277, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.59084, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7761, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.36848, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9631, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.78521, dme: 2, auto: 1}
+[generate_radial_functions] 
+[generate_radial_functions] Atom : C, class id : 1
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.23019, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60365, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7888, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38127, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9758, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79806, dme: 2, auto: 1}
+[generate_radial_functions] 
+[generate_radial_functions] Atom : C, class id : 2
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -5.2311, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: 2.60274, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 13.7879, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: 2.38035, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 10.9749, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 5.79715, dme: 2, auto: 1}
+[generate_radial_functions] 
+ You requested the GPU version, thus the GPU kernel is activated
+[diagonalize] Lowest band energies
+[diagonalize] ik:    0   -5.243128   -5.243127   -5.243127   -5.243127   -5.243126   -5.243126   -5.241561   -5.241561   -5.241561   -5.241561
+[find] 
+[find] Charges and magnetic moments
+[find] --------------------------------------------------------------------------------
+[find] atom      charge    core leakage
+[find] --------------------------------------------------------------------------------
+[find]    0    3.198699    0.000000e+00
+[find]    1    3.198699    0.000000e+00
+[find]    2    3.198699    0.000000e+00
+[find]    3    3.198699    0.000000e+00
+[find]    4    3.198699    0.000000e+00
+[find]    5    3.198699    0.000000e+00
+[find]    6    3.198699    0.000000e+00
+[find]    7    3.198699    0.000000e+00
+[find]    8    3.198699    0.000000e+00
+[find]    9    3.198699    0.000000e+00
+[find]   10    3.198699    0.000000e+00
+[find]   11    3.198699    0.000000e+00
+[find]   12    3.195904    0.000000e+00
+[find]   13    3.195904    0.000000e+00
+[find]   14    3.195904    0.000000e+00
+[find]   15    3.195904    0.000000e+00
+[find]   16    3.195904    0.000000e+00
+[find]   17    3.195904    0.000000e+00
+[find]   18    3.195904    0.000000e+00
+[find]   19    3.195904    0.000000e+00
+[find]   20    3.195904    0.000000e+00
+[find]   21    3.195904    0.000000e+00
+[find]   22    3.195904    0.000000e+00
+[find]   23    3.195904    0.000000e+00
+[find]   24    3.195904    0.000000e+00
+[find]   25    3.195904    0.000000e+00
+[find]   26    3.195904    0.000000e+00
+[find]   27    3.195904    0.000000e+00
+[find]   28    3.195904    0.000000e+00
+[find]   29    3.195904    0.000000e+00
+[find]   30    3.195904    0.000000e+00
+[find]   31    3.195904    0.000000e+00
+[find]   32    3.195904    0.000000e+00
+[find]   33    3.195904    0.000000e+00
+[find]   34    3.195904    0.000000e+00
+[find]   35    3.195904    0.000000e+00
+[find]   36    3.193254    0.000000e+00
+[find]   37    3.193254    0.000000e+00
+[find]   38    3.193254    0.000000e+00
+[find]   39    3.193254    0.000000e+00
+[find]   40    3.193254    0.000000e+00
+[find]   41    3.193254    0.000000e+00
+[find]   42    3.193254    0.000000e+00
+[find]   43    3.193254    0.000000e+00
+[find]   44    3.193254    0.000000e+00
+[find]   45    3.193254    0.000000e+00
+[find]   46    3.193254    0.000000e+00
+[find]   47    3.193254    0.000000e+00
+[find]   48    3.193254    0.000000e+00
+[find]   49    3.193254    0.000000e+00
+[find]   50    3.193254    0.000000e+00
+[find]   51    3.193254    0.000000e+00
+[find]   52    3.193254    0.000000e+00
+[find]   53    3.193254    0.000000e+00
+[find]   54    3.193254    0.000000e+00
+[find]   55    3.193254    0.000000e+00
+[find]   56    3.193254    0.000000e+00
+[find]   57    3.193254    0.000000e+00
+[find]   58    3.193254    0.000000e+00
+[find]   59    3.193254    0.000000e+00
+[find] 
+[find] total core leakage    : 0.00000000e+00
+[find] interstitial charge   : 168.275806
+[find] total charge          : 360.000000
+[find] 
+[find] Energy
+[find] --------------------------------------------------------------------------------
+[find] valence_eval_sum               :    -581.68860437
+[find] core_eval_sum                  :       0.00000000
+[find] kinetic energy                 :    3370.91819871
+[find] enuc                           :   -2293.70936873
+[find] <rho|V^{XC}>                   :    -375.04393114
+[find] <rho|E^{XC}>                   :    -284.80570614
+[find] <mag|B^{XC}>                   :       0.00000000
+[find] <rho|V^{H}>                    :   -3577.56467150
+[find] smearing (-TS)                 :      -0.27592502
+[find] SCF correction                 :   -1023.19200826
+[find] Total energy                   :   -2019.57122018 (Ha),   -4039.14244036 (Ry)
+[find] Free energy (E-TS)             :   -2019.84714520 (Ha),   -4039.69429039 (Ry)
+[find] 
+[find] band gap (eV)                  :       0.00000000
+[find] Efermi                         :       0.37608067
+[find] 
+[find] iteration : 0, RMS : 4.811594847279e-01, energy difference : -2.019571220178e+03
+[find] 
+[find] +------------------------------+
+[find] | SCF iteration   1 out of   2|
+[find] +------------------------------+
+[find] 
+[generate_radial_functions] 
+[generate_radial_functions] Linearization energies
+[generate_radial_functions] Atom : C, class id : 0
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: -1.1717, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.1717, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.30849, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.30849, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -11.9405, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.9405, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.1717, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.1717, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.9405, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.9405, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.1717, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.1717, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.41005, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.41005, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.41005, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.41005, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.30849, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.30849, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.30849, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.30849, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.70322, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.70322, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.70322, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.70322, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.50033, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.50033, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.50033, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.50033, dme: 2, auto: 1}
+[generate_radial_functions] 
+[generate_radial_functions] Atom : C, class id : 1
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: -1.01696, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.01696, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.15389, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.15389, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -11.7858, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.7858, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.01696, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.01696, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.7858, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.7858, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.01696, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.01696, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.56484, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.56484, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.56484, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.56484, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.15389, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.15389, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.15389, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.15389, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.85788, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.85788, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.85788, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.85788, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.65507, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.65507, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.65507, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.65507, dme: 2, auto: 1}
+[generate_radial_functions] 
+[generate_radial_functions] Atom : C, class id : 2
+[generate_radial_functions] augmented waves
+[generate_radial_functions] {l: 0, n: 2, enu: -1.04234, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.04234, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.17932, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.17932, dme: 1, auto: 1}
+[generate_radial_functions] local orbitals
+[generate_radial_functions] {l: 0, n: 1, enu: -11.8124, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.8124, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.04234, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.04234, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.8124, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 1, enu: -11.8124, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.04234, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 2, enu: -1.04234, dme: 2, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.53921, dme: 0, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.53921, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.53921, dme: 1, auto: 1}
+[generate_radial_functions] {l: 0, n: 3, enu: 9.53921, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.17932, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.17932, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.17932, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 2, enu: -1.17932, dme: 2, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.83229, dme: 0, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.83229, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.83229, dme: 1, auto: 1}
+[generate_radial_functions] {l: 1, n: 3, enu: 6.83229, dme: 2, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.62988, dme: 0, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.62988, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.62988, dme: 1, auto: 1}
+[generate_radial_functions] {l: 2, n: 3, enu: 2.62988, dme: 2, auto: 1}
+[generate_radial_functions] 
+ You requested the GPU version, thus the GPU kernel is activated
+[diagonalize] Lowest band energies
+[diagonalize] ik:    0  -11.941031  -11.941031  -11.941031  -11.941031  -11.941031  -11.941031  -11.940823  -11.940823  -11.940823  -11.940823
+[find] 
+[find] Charges and magnetic moments
+[find] --------------------------------------------------------------------------------
+[find] atom      charge    core leakage
+[find] --------------------------------------------------------------------------------
+[find]    0    4.468752    0.000000e+00
+[find]    1    4.468752    0.000000e+00
+[find]    2    4.468752    0.000000e+00
+[find]    3    4.468752    0.000000e+00
+[find]    4    4.468752    0.000000e+00
+[find]    5    4.468752    0.000000e+00
+[find]    6    4.468752    0.000000e+00
+[find]    7    4.468752    0.000000e+00
+[find]    8    4.468752    0.000000e+00
+[find]    9    4.468752    0.000000e+00
+[find]   10    4.468752    0.000000e+00
+[find]   11    4.468752    0.000000e+00
+[find]   12    3.812193    0.000000e+00
+[find]   13    3.812193    0.000000e+00
+[find]   14    3.812193    0.000000e+00
+[find]   15    3.812193    0.000000e+00
+[find]   16    3.812193    0.000000e+00
+[find]   17    3.812193    0.000000e+00
+[find]   18    3.812193    0.000000e+00
+[find]   19    3.812193    0.000000e+00
+[find]   20    3.812193    0.000000e+00
+[find]   21    3.812193    0.000000e+00
+[find]   22    3.812193    0.000000e+00
+[find]   23    3.812193    0.000000e+00
+[find]   24    3.812193    0.000000e+00
+[find]   25    3.812193    0.000000e+00
+[find]   26    3.812193    0.000000e+00
+[find]   27    3.812193    0.000000e+00
+[find]   28    3.812193    0.000000e+00
+[find]   29    3.812193    0.000000e+00
+[find]   30    3.812193    0.000000e+00
+[find]   31    3.812193    0.000000e+00
+[find]   32    3.812193    0.000000e+00
+[find]   33    3.812193    0.000000e+00
+[find]   34    3.812193    0.000000e+00
+[find]   35    3.812193    0.000000e+00
+[find]   36    3.997018    0.000000e+00
+[find]   37    3.997018    0.000000e+00
+[find]   38    3.997018    0.000000e+00
+[find]   39    3.997018    0.000000e+00
+[find]   40    3.997018    0.000000e+00
+[find]   41    3.997018    0.000000e+00
+[find]   42    3.997018    0.000000e+00
+[find]   43    3.997018    0.000000e+00
+[find]   44    3.997018    0.000000e+00
+[find]   45    3.997018    0.000000e+00
+[find]   46    3.997018    0.000000e+00
+[find]   47    3.997018    0.000000e+00
+[find]   48    3.997018    0.000000e+00
+[find]   49    3.997018    0.000000e+00
+[find]   50    3.997018    0.000000e+00
+[find]   51    3.997018    0.000000e+00
+[find]   52    3.997018    0.000000e+00
+[find]   53    3.997018    0.000000e+00
+[find]   54    3.997018    0.000000e+00
+[find]   55    3.997018    0.000000e+00
+[find]   56    3.997018    0.000000e+00
+[find]   57    3.997018    0.000000e+00
+[find]   58    3.997018    0.000000e+00
+[find]   59    3.997018    0.000000e+00
+[find] 
+[find] total core leakage    : 0.00000000e+00
+[find] interstitial charge   : 118.953905
+[find] total charge          : 360.000000
+[find] 
+[find] Energy
+[find] --------------------------------------------------------------------------------
+[find] valence_eval_sum               :   -1997.96479768
+[find] core_eval_sum                  :       0.00000000
+[find] kinetic energy                 :    1414.41066630
+[find] enuc                           :   -2715.54064724
+[find] <rho|V^{XC}>                   :    -404.68690482
+[find] <rho|E^{XC}>                   :    -307.36561466
+[find] <mag|B^{XC}>                   :       0.00000000
+[find] <rho|V^{H}>                    :   -3007.68913848
+[find] smearing (-TS)                 :      -0.15557601
+[find] SCF correction                 :     898.89049426
+[find] Total energy                   :   -2213.44967060 (Ha),   -4426.89934119 (Ry)
+[find] Free energy (E-TS)             :   -2213.60524661 (Ha),   -4427.21049322 (Ry)
+[find] 
+[find] band gap (eV)                  :       0.00000000
+[find] Efermi                         :      -1.86830822
+[find] 
+[find] iteration : 1, RMS : 5.427292375892e-02, energy difference : -1.938784504187e+02
+[find] 
+[find] Charges and magnetic moments
+[find] --------------------------------------------------------------------------------
+[find] atom      charge    core leakage
+[find] --------------------------------------------------------------------------------
+[find]    0    4.468752    0.000000e+00
+[find]    1    4.468752    0.000000e+00
+[find]    2    4.468752    0.000000e+00
+[find]    3    4.468752    0.000000e+00
+[find]    4    4.468752    0.000000e+00
+[find]    5    4.468752    0.000000e+00
+[find]    6    4.468752    0.000000e+00
+[find]    7    4.468752    0.000000e+00
+[find]    8    4.468752    0.000000e+00
+[find]    9    4.468752    0.000000e+00
+[find]   10    4.468752    0.000000e+00
+[find]   11    4.468752    0.000000e+00
+[find]   12    3.812193    0.000000e+00
+[find]   13    3.812193    0.000000e+00
+[find]   14    3.812193    0.000000e+00
+[find]   15    3.812193    0.000000e+00
+[find]   16    3.812193    0.000000e+00
+[find]   17    3.812193    0.000000e+00
+[find]   18    3.812193    0.000000e+00
+[find]   19    3.812193    0.000000e+00
+[find]   20    3.812193    0.000000e+00
+[find]   21    3.812193    0.000000e+00
+[find]   22    3.812193    0.000000e+00
+[find]   23    3.812193    0.000000e+00
+[find]   24    3.812193    0.000000e+00
+[find]   25    3.812193    0.000000e+00
+[find]   26    3.812193    0.000000e+00
+[find]   27    3.812193    0.000000e+00
+[find]   28    3.812193    0.000000e+00
+[find]   29    3.812193    0.000000e+00
+[find]   30    3.812193    0.000000e+00
+[find]   31    3.812193    0.000000e+00
+[find]   32    3.812193    0.000000e+00
+[find]   33    3.812193    0.000000e+00
+[find]   34    3.812193    0.000000e+00
+[find]   35    3.812193    0.000000e+00
+[find]   36    3.997018    0.000000e+00
+[find]   37    3.997018    0.000000e+00
+[find]   38    3.997018    0.000000e+00
+[find]   39    3.997018    0.000000e+00
+[find]   40    3.997018    0.000000e+00
+[find]   41    3.997018    0.000000e+00
+[find]   42    3.997018    0.000000e+00
+[find]   43    3.997018    0.000000e+00
+[find]   44    3.997018    0.000000e+00
+[find]   45    3.997018    0.000000e+00
+[find]   46    3.997018    0.000000e+00
+[find]   47    3.997018    0.000000e+00
+[find]   48    3.997018    0.000000e+00
+[find]   49    3.997018    0.000000e+00
+[find]   50    3.997018    0.000000e+00
+[find]   51    3.997018    0.000000e+00
+[find]   52    3.997018    0.000000e+00
+[find]   53    3.997018    0.000000e+00
+[find]   54    3.997018    0.000000e+00
+[find]   55    3.997018    0.000000e+00
+[find]   56    3.997018    0.000000e+00
+[find]   57    3.997018    0.000000e+00
+[find]   58    3.997018    0.000000e+00
+[find]   59    3.997018    0.000000e+00
+[find] 
+[find] total core leakage    : 0.00000000e+00
+[find] interstitial charge   : 118.953905
+[find] total charge          : 360.000000
+[find] 
+[find] Energy
+[find] --------------------------------------------------------------------------------
+[find] valence_eval_sum               :   -1997.96479768
+[find] core_eval_sum                  :       0.00000000
+[find] kinetic energy                 :    1414.41066630
+[find] enuc                           :   -2715.54064724
+[find] <rho|V^{XC}>                   :    -404.68690482
+[find] <rho|E^{XC}>                   :    -307.36561466
+[find] <mag|B^{XC}>                   :       0.00000000
+[find] <rho|V^{H}>                    :   -3007.68913848
+[find] smearing (-TS)                 :      -0.15557601
+[find] SCF correction                 :     898.89049426
+[find] Total energy                   :   -2213.44967060 (Ha),   -4426.89934119 (Ry)
+[find] Free energy (E-TS)             :   -2213.60524661 (Ha),   -4427.21049322 (Ry)
+[find] 
+[find] band gap (eV)                  :       0.00000000
+[find] Efermi                         :      -1.86830822
+[find] 
+[~DFT_ground_state] local op. applied: 0
+[~DFT_ground_state] evp. work count: 0
+[~DFT_ground_state] numbef of iterative solver steps: 0
+==========================================================================================================================================================
+                                                                           #         Total          %     Self %        Median           Min           Max
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+sirius                                                                     1     116.97 s      100.00       0.78     116.97 s      116.97 s      116.97 s 
+├ sirius::initialize                                                       1       1.20 s        1.03     100.00       1.20 s        1.20 s        1.20 s 
+├ sirius::Simulation_context::initialize                                   1       1.07 s        0.92       0.76       1.07 s        1.07 s        1.07 s 
+│ ├ sirius::Simulation_context::init_comm                                  1       1.04 ms       0.00     100.00       1.04 ms       1.04 ms       1.04 ms
+│ ├ sirius::Unit_cell::initialize                                          1     231.73 ms       0.20       0.90     231.73 ms     231.73 ms     231.73 ms
+│ │ ├ sirius::Atom_type::init                                              1     219.20 ms       0.19     100.00     219.20 ms     219.20 ms     219.20 ms
+│ │ └ sirius::Unit_cell::update                                            1      10.43 ms       0.01       2.48      10.43 ms      10.43 ms      10.43 ms
+│ │   ├ sirius::Unit_cell::find_nearest_neighbours                         1       6.72 ms       0.01     100.00       6.72 ms       6.72 ms       6.72 ms
+│ │   └ sirius::Unit_cell::get_symmetry                                    1       3.45 ms       0.00       2.89       3.45 ms       3.45 ms       3.45 ms
+│ │     └ sirius::Crystal_symmetry                                         1       3.35 ms       0.00       8.63       3.35 ms       3.35 ms       3.35 ms
+│ │       ├ sirius::Crystal_symmetry|spg                                   1       2.80 ms       0.00     100.00       2.80 ms       2.80 ms       2.80 ms
+│ │       ├ sirius::find_sym_atom                                         48     220.38 us       0.00     100.00       4.58 us       4.13 us       5.89 us
+│ │       └ sirius::Crystal_symmetry|mag                                   1      42.30 us       0.00     100.00      42.30 us      42.30 us      42.30 us
+│ └ sirius::Simulation_context::update                                     1     832.61 ms       0.71      42.09     832.61 ms     832.61 ms     832.61 ms
+│   ├ sirius::Unit_cell::update                                            1       2.49 ms       0.00       4.36       2.49 ms       2.49 ms       2.49 ms
+│   │ ├ sirius::Unit_cell::find_nearest_neighbours                         1     151.55 us       0.00     100.00     151.55 us     151.55 us     151.55 us
+│   │ └ sirius::Unit_cell::get_symmetry                                    1       2.23 ms       0.00       1.65       2.23 ms       2.23 ms       2.23 ms
+│   │   └ sirius::Crystal_symmetry                                         1       2.19 ms       0.00      10.27       2.19 ms       2.19 ms       2.19 ms
+│   │     ├ sirius::Crystal_symmetry|spg                                   1       1.73 ms       0.00     100.00       1.73 ms       1.73 ms       1.73 ms
+│   │     ├ sirius::find_sym_atom                                         48     220.57 us       0.00     100.00       4.61 us       4.13 us       5.02 us
+│   │     └ sirius::Crystal_symmetry|mag                                   1      16.26 us       0.00     100.00      16.26 us      16.26 us      16.26 us
+│   ├ fft::Gvec::init                                                      2     259.87 ms       0.22      30.41     129.94 ms      25.57 ms     234.30 ms
+│   │ ├ fft::Gvec::find_z_columns                                          2      40.63 ms       0.03       0.04      20.31 ms       6.05 ms      34.58 ms
+│   │ │ ├ fft::Gvec::find_z_columns|add                                    2       9.77 ms       0.01     100.00       4.89 ms       1.41 ms       8.36 ms
+│   │ │ ├ fft::Gvec::find_z_columns|sym                                    2      30.58 ms       0.03     100.00      15.29 ms       4.56 ms      26.02 ms
+│   │ │ └ fft::Gvec::find_z_columns|sort                                   2     264.73 us       0.00     100.00     132.36 us      62.43 us     202.30 us
+│   │ └ fft::Gvec::find_gvec_shells                                        2     140.22 ms       0.12     100.00      70.11 ms      10.23 ms     129.99 ms
+│   ├ fft::Gvec_shells                                                     1     218.70 ms       0.19     100.00     218.70 ms     218.70 ms     218.70 ms
+│   └ sirius::make_periodic_function                                       1       1.10 ms       0.00     100.00       1.10 ms       1.10 ms       1.10 ms
+├ sirius::K_point_set::create_k_mesh                                       1      38.57 ms       0.03       0.47      38.57 ms      38.57 ms      38.57 ms
+│ ├ fft::Gvec::init                                                        1       1.58 ms       0.00      82.93       1.58 ms       1.58 ms       1.58 ms
+│ │ └ fft::Gvec::find_z_columns                                            1     269.56 us       0.00       1.61     269.56 us     269.56 us     269.56 us
+│ │   ├ fft::Gvec::find_z_columns|add                                      1     249.14 us       0.00     100.00     249.14 us     249.14 us     249.14 us
+│ │   ├ fft::Gvec::find_z_columns|sym                                      1     896.00 ns       0.00     100.00     896.00 ns     896.00 ns     896.00 ns
+│ │   └ fft::Gvec::find_z_columns|sort                                     1      15.17 us       0.00     100.00      15.17 us      15.17 us      15.17 us
+│ └ sirius::K_point_set::initialize                                        1      36.81 ms       0.03       0.47      36.81 ms      36.81 ms      36.81 ms
+│   └ sirius::K_point::initialize                                          1      36.63 ms       0.03      77.93      36.63 ms      36.63 ms      36.63 ms
+│     ├ sirius::K_point::generate_gkvec                                    1       3.72 ms       0.00     100.00       3.72 ms       3.72 ms       3.72 ms
+│     └ sirius::K_point::update                                            1       4.37 ms       0.00     100.00       4.37 ms       4.37 ms       4.37 ms
+├ sirius::Potential                                                        1     149.00 ms       0.13      12.52     149.00 ms     149.00 ms     149.00 ms
+│ └ sirius::Potential::update                                              1     130.35 ms       0.11      33.98     130.35 ms     130.35 ms     130.35 ms
+│   ├ sirius::generate_gvec_ylm                                            1      77.10 ms       0.07     100.00      77.10 ms      77.10 ms      77.10 ms
+│   └ sirius::generate_sbessel_mt                                          1       8.95 ms       0.01     100.00       8.95 ms       8.95 ms       8.95 ms
+├ sirius::Density                                                          1       2.06 ms       0.00      99.97       2.06 ms       2.06 ms       2.06 ms
+│ └ sirius::Density::update                                                1     576.00 ns       0.00     100.00     576.00 ns     576.00 ns     576.00 ns
+├ sirius::DFT_ground_state::initial_state                                  1       2.22 s        1.90       0.00       2.22 s        2.22 s        2.22 s 
+│ ├ sirius::Density::initial_density                                       1       1.64 s        1.40      69.23       1.64 s        1.64 s        1.64 s 
+│ │ ├ sirius::Radial_integrals|rho_free_atom                               1       2.72 ms       0.00     100.00       2.72 ms       2.72 ms       2.72 ms
+│ │ ├ sirius::make_periodic_function                                       1     843.84 us       0.00     100.00     843.84 us     843.84 us     843.84 us
+│ │ ├ sirius::Smooth_periodic_function::fft_transform                      1     869.99 us       0.00     100.00     869.99 us     869.99 us     869.99 us
+│ │ ├ sirius::generate_gvec_ylm                                            1      10.85 ms       0.01     100.00      10.85 ms      10.85 ms      10.85 ms
+│ │ ├ sirius::generate_sbessel_mt                                          1      10.24 ms       0.01     100.00      10.24 ms      10.24 ms      10.24 ms
+│ │ ├ sirius::sum_fg_fl_yg                                                 1      75.83 ms       0.06      17.10      75.83 ms      75.83 ms      75.83 ms
+│ │ │ ├ sirius::Simulation_context::generate_phase_factors                 1     457.87 us       0.00     100.00     457.87 us     457.87 us     457.87 us
+│ │ │ ├ sirius::sum_fg_fl_yg|zm                                            1      10.56 ms       0.01     100.00      10.56 ms      10.56 ms      10.56 ms
+│ │ │ └ sirius::sum_fg_fl_yg|mul                                           1      51.84 ms       0.04     100.00      51.84 ms      51.84 ms      51.84 ms
+│ │ ├ sirius::Periodic_function::integrate                                 2      21.16 ms       0.02     100.00      10.58 ms      10.47 ms      10.70 ms
+│ │ ├ sirius::symmetrize_pw_function                                       1      42.98 ms       0.04       3.27      42.98 ms      42.98 ms      42.98 ms
+│ │ │ ├ fft::Gvec_shells::remap_forward                                    1       9.78 ms       0.01     100.00       9.78 ms       9.78 ms       9.78 ms
+│ │ │ ├ sirius::symmetrize|fpw|local                                       1      25.61 ms       0.02     100.00      25.61 ms      25.61 ms      25.61 ms
+│ │ │ └ fft::Gvec_shells::remap_backward                                   1       6.18 ms       0.01     100.00       6.18 ms       6.18 ms       6.18 ms
+│ │ └ sirius::symmetrize_mt_function                                       3     337.96 ms       0.29     100.00     133.19 ms      70.22 ms     134.56 ms
+│ └ sirius::Potential::generate                                            1     582.14 ms       0.50       0.29     582.14 ms     582.14 ms     582.14 ms
+│   ├ sirius::Potential::poisson                                           1     126.01 ms       0.11       2.98     126.01 ms     126.01 ms     126.01 ms
+│   │ ├ sirius::Potential::poisson_vmt                                     1      28.96 ms       0.02     100.00      28.96 ms      28.96 ms      28.96 ms
+│   │ ├ sirius::sum_fg_fl_yg                                               2      24.42 ms       0.02       1.14      12.21 ms      12.15 ms      12.27 ms
+│   │ │ ├ sirius::Simulation_context::generate_phase_factors               2     121.31 us       0.00     100.00      60.65 us      39.04 us      82.27 us
+│   │ │ ├ sirius::sum_fg_fl_yg|zm                                          2      13.54 ms       0.01     100.00       6.77 ms       6.59 ms       6.95 ms
+│   │ │ └ sirius::sum_fg_fl_yg|mul                                         2      10.48 ms       0.01     100.00       5.24 ms       5.17 ms       5.31 ms
+│   │ ├ sirius::Potential::poisson_add_pseudo_pw                           1      51.65 ms       0.04      99.97      51.65 ms      51.65 ms      51.65 ms
+│   │ │ └ sirius::Simulation_context::generate_phase_factors               1      17.98 us       0.00     100.00      17.98 us      17.98 us      17.98 us
+│   │ ├ sirius::Potential::poisson|bc                                      1       2.31 ms       0.00     100.00       2.31 ms       2.31 ms       2.31 ms
+│   │ ├ sirius::Smooth_periodic_function::fft_transform                    1     729.90 us       0.00     100.00     729.90 us     729.90 us     729.90 us
+│   │ └ sirius::inner::pf                                                  1      14.20 ms       0.01     100.00      14.20 ms      14.20 ms      14.20 ms
+│   ├ sirius::Periodic_function::add                                       2       8.88 ms       0.01     100.00       4.44 ms       4.21 ms       4.67 ms
+│   ├ sirius::Potential::xc                                                1      79.57 ms       0.07       4.06      79.57 ms      79.57 ms      79.57 ms
+│   │ ├ sirius::Potential::xc_mt                                           1      66.86 ms       0.06     100.00      66.86 ms      66.86 ms      66.86 ms
+│   │ └ sirius::Potential::xc_rg_nonmagnetic                               1       9.48 ms       0.01      64.55       9.48 ms       9.48 ms       9.48 ms
+│   │   └ sirius::Potential::xc_rg_nonmagnetic|libxc                       2       3.36 ms       0.00     100.00       1.68 ms       1.14 ms       2.22 ms
+│   ├ sirius::Smooth_periodic_function::fft_transform                      2       1.58 ms       0.00     100.00     791.44 us     775.11 us     807.78 us
+│   ├ sirius::symmetrize_pw_function                                       1      31.07 ms       0.03       3.37      31.07 ms      31.07 ms      31.07 ms
+│   │ ├ fft::Gvec_shells::remap_forward                                    1       6.19 ms       0.01     100.00       6.19 ms       6.19 ms       6.19 ms
+│   │ ├ sirius::symmetrize|fpw|local                                       1      17.72 ms       0.02     100.00      17.72 ms      17.72 ms      17.72 ms
+│   │ └ fft::Gvec_shells::remap_backward                                   1       6.11 ms       0.01     100.00       6.11 ms       6.11 ms       6.11 ms
+│   └ sirius::symmetrize_mt_function                                       3     333.35 ms       0.28     100.00     132.34 ms      66.52 ms     134.49 ms
+├ sirius::DFT_ground_state::scf_loop                                       1     110.99 s       94.88       0.21     110.99 s      110.99 s      110.99 s 
+│ ├ sirius::Density                                                        1       2.07 ms       0.00      99.93       2.07 ms       2.07 ms       2.07 ms
+│ │ └ sirius::Density::update                                              1       1.47 us       0.00     100.00       1.47 us       1.47 us       1.47 us
+│ ├ sirius::DFT_ground_state::scf_loop|iteration                           2     110.56 s       94.51       0.10      55.28 s       54.49 s       56.07 s 
+│ │ ├ sirius::Hamiltonian0                                                 2     710.55 ms       0.61       1.48     355.28 ms     347.96 ms     362.59 ms
+│ │ │ ├ sirius::Local_operator                                             2      23.07 ms       0.02      89.30      11.53 ms      10.86 ms      12.21 ms
+│ │ │ │ └ sirius::Smooth_periodic_function::fft_transform                  8       2.47 ms       0.00     100.00     251.01 us     151.74 us     602.89 us
+│ │ │ ├ sirius::Potential::generate_pw_coefs                               2       6.94 ms       0.01     100.00       3.47 ms       3.29 ms       3.65 ms
+│ │ │ ├ sirius::Unit_cell::generate_radial_functions                       2     242.44 ms       0.21       0.17     121.22 ms     118.55 ms     123.89 ms
+│ │ │ │ └ sirius::Atom_symmetry_class::generate_radial_functions           6     242.02 ms       0.21       8.86      40.39 ms      39.05 ms      41.36 ms
+│ │ │ │   └ sirius::Atom_symmetry_class::find_enu                          6     220.59 ms       0.19     100.00      36.84 ms      35.49 ms      37.74 ms
+│ │ │ └ sirius::Unit_cell::generate_radial_integrals                       2     427.60 ms       0.37       0.06     213.80 ms     210.08 ms     217.53 ms
+│ │ │   ├ sirius::Atom_symmetry_class::generate_radial_integrals           6      11.83 ms       0.01     100.00       1.96 ms       1.95 ms       2.00 ms
+│ │ │   └ sirius::Atom::generate_radial_integrals                        120     415.53 ms       0.36      52.97       3.39 ms       3.31 ms       9.79 ms
+│ │ │     └ sirius::Atom::generate_radial_integrals|interp               120     195.42 ms       0.17     100.00       1.62 ms       1.53 ms       1.83 ms
+│ │ ├ sirius::diagonalize                                                  2     107.37 s       91.79       0.00      53.68 s       52.87 s       54.50 s 
+│ │ │ ├ sirius::Hamiltonian_k                                              2     202.74 us       0.00       2.38     101.37 us      90.62 us     112.12 us
+│ │ │ │ └ sirius::Local_operator::prepare_k                                2     197.91 us       0.00     100.00      98.96 us      90.30 us     107.61 us
+│ │ │ ├ sirius::diagonalize_fp_fv_exact                                    2     107.05 s       91.52       0.03      53.53 s       52.71 s       54.34 s 
+│ │ │ │ ├ sirius::Hamiltonian_k::set_fv_h_o                                2       5.62 s        4.81      30.73       2.81 s        2.66 s        2.96 s 
+│ │ │ │ │ ├ sirius::Hamiltonian_k::set_fv_h_o|zgemm                        2       3.75 s        3.21     100.00       1.88 s        1.87 s        1.88 s 
+│ │ │ │ │ ├ sirius::Hamiltonian_k::set_fv_h_o_it                           2     140.51 ms       0.12     100.00      70.26 ms      70.16 ms      70.35 ms
+│ │ │ │ │ └ sirius::Hamiltonian_k::set_fv_h_o_lo_lo                        2     168.28 us       0.00     100.00      84.14 us      78.62 us      89.66 us
+│ │ │ │ ├ Eigensolver_elpa|solve_gen                                       2     101.40 s       86.69     100.00      50.70 s       50.04 s       51.36 s 
+│ │ │ │ │ └ Eigensolver_elpa|solve_gen|setup                               2     604.94 us       0.00     100.00     302.47 us     191.35 us     413.59 us
+│ │ │ │ └ sirius::wf::Wave_functions_fft::grid_layout_pw                   2      54.78 us       0.00     100.00      27.39 us       9.05 us      45.73 us
+│ │ │ ├ sirius::K_point::generate_fv_states                                2     301.51 ms       0.26      91.08     150.76 ms     149.99 ms     151.53 ms
+│ │ │ │ └ sirius::generate_alm_block                                       2      26.90 ms       0.02     100.00      13.45 ms      13.39 ms      13.51 ms
+│ │ │ ├ sirius::diagonalize_fp_sv                                          2      18.14 us       0.00     100.00       9.07 us       8.83 us       9.31 us
+│ │ │ ├ sirius::K_point::generate_spinor_wave_functions                    2      11.25 ms       0.01     100.00       5.63 ms       5.54 ms       5.71 ms
+│ │ │ └ sirius::K_point_set::sync_band                                     2     237.37 us       0.00     100.00     118.68 us     115.93 us     121.44 us
+│ │ ├ sirius::K_point_set::find_band_occupancies                           2       2.10 ms       0.00      96.86       1.05 ms       1.03 ms       1.07 ms
+│ │ │ └ sirius::K_point_set::sync_band                                     2      65.98 us       0.00     100.00      32.99 us      32.77 us      33.21 us
+│ │ ├ sirius::Density::generate                                            2     816.10 ms       0.70       0.08     408.05 ms     405.21 ms     410.89 ms
+│ │ │ ├ sirius::Density::generate_valence                                  2      89.00 ms       0.08       7.15      44.50 ms      43.56 ms      45.44 ms
+│ │ │ │ ├ sirius::add_k_point_contribution_dm_fplapw                       2       5.84 ms       0.00     100.00       2.92 ms       2.65 ms       3.18 ms
+│ │ │ │ ├ sirius::Density::add_k_point_contribution_rg                     2      19.65 ms       0.02     100.00       9.82 ms       9.31 ms      10.34 ms
+│ │ │ │ ├ sirius::Smooth_periodic_function::fft_transform                  2     291.79 us       0.00     100.00     145.90 us     145.21 us     146.59 us
+│ │ │ │ └ sirius::Density::generate_valence_mt                             2      56.86 ms       0.05       0.08      28.43 ms      28.25 ms      28.61 ms
+│ │ │ │   ├ sirius::Density::generate|sum_zdens                          120       3.58 ms       0.00     100.00      28.99 us      27.36 us      71.26 us
+│ │ │ │   └ sirius::Density::generate|expand_lm                          120      53.24 ms       0.05     100.00     443.66 us     385.68 us     518.70 us
+│ │ │ ├ sirius::Density::generate_core_charge_density                      2      28.16 us       0.00      94.89      14.08 us      10.46 us      17.70 us
+│ │ │ │ └ sirius::Atom_symmetry_class::generate_core_charge_density        6       1.44 us       0.00     100.00     192.00 ns      64.00 ns     416.00 ns
+│ │ │ ├ sirius::symmetrize_pw_function                                     2      62.71 ms       0.05       3.26      31.36 ms      31.25 ms      31.46 ms
+│ │ │ │ ├ fft::Gvec_shells::remap_forward                                  2      12.87 ms       0.01     100.00       6.43 ms       6.40 ms       6.47 ms
+│ │ │ │ ├ sirius::symmetrize|fpw|local                                     2      35.57 ms       0.03     100.00      17.78 ms      17.76 ms      17.81 ms
+│ │ │ │ └ fft::Gvec_shells::remap_backward                                 2      12.24 ms       0.01     100.00       6.12 ms       6.08 ms       6.16 ms
+│ │ │ ├ sirius::symmetrize_mt_function                                     6     662.04 ms       0.57     100.00     130.25 ms      66.77 ms     134.64 ms
+│ │ │ └ sirius::Smooth_periodic_function::fft_transform                    2       1.64 ms       0.00     100.00     822.03 us     821.14 us     822.91 us
+│ │ ├ sirius::inner::pf                                                   18     260.14 ms       0.22     100.00      14.47 ms      13.93 ms      14.70 ms
+│ │ ├ sirius::Density::mix                                                 2     221.86 ms       0.19      60.22     110.93 ms      72.30 ms     149.56 ms
+│ │ │ ├ sirius::Density::mixer_input                                       2      13.87 ms       0.01     100.00       6.93 ms       6.85 ms       7.01 ms
+│ │ │ ├ sirius::inner::pf                                                  4      56.04 ms       0.05     100.00      13.84 ms      13.74 ms      14.62 ms
+│ │ │ └ sirius::Density::mixer_output                                      2      18.34 ms       0.02      92.77       9.17 ms       9.10 ms       9.24 ms
+│ │ │   └ sirius::Smooth_periodic_function::fft_transform                  2       1.33 ms       0.00     100.00     663.35 us     657.50 us     669.19 us
+│ │ ├ sirius::Potential::generate                                          2       1.05 s        0.90       0.32     526.09 ms     523.85 ms     528.33 ms
+│ │ │ ├ sirius::Potential::poisson                                         2     233.60 ms       0.20       3.14     116.80 ms     116.65 ms     116.95 ms
+│ │ │ │ ├ sirius::Potential::poisson_vmt                                   2      58.30 ms       0.05     100.00      29.15 ms      29.09 ms      29.20 ms
+│ │ │ │ ├ sirius::sum_fg_fl_yg                                             4      48.13 ms       0.04       1.17      12.03 ms      11.88 ms      12.19 ms
+│ │ │ │ │ ├ sirius::Simulation_context::generate_phase_factors             4     224.41 us       0.00     100.00      55.69 us      31.87 us      81.15 us
+│ │ │ │ │ ├ sirius::sum_fg_fl_yg|zm                                        4      26.34 ms       0.02     100.00       6.59 ms       6.52 ms       6.65 ms
+│ │ │ │ │ └ sirius::sum_fg_fl_yg|mul                                       4      21.00 ms       0.02     100.00       5.25 ms       5.17 ms       5.33 ms
+│ │ │ │ ├ sirius::Potential::poisson_add_pseudo_pw                         2      85.38 ms       0.07      99.96      42.69 ms      42.54 ms      42.83 ms
+│ │ │ │ │ └ sirius::Simulation_context::generate_phase_factors             2      29.95 us       0.00     100.00      14.98 us      13.12 us      16.83 us
+│ │ │ │ ├ sirius::Potential::poisson|bc                                    2       4.59 ms       0.00     100.00       2.30 ms       2.26 ms       2.33 ms
+│ │ │ │ ├ sirius::Smooth_periodic_function::fft_transform                  2       1.42 ms       0.00     100.00     712.06 us     709.67 us     714.46 us
+│ │ │ │ └ sirius::inner::pf                                                2      28.45 ms       0.02     100.00      14.22 ms      14.16 ms      14.29 ms
+│ │ │ ├ sirius::Periodic_function::add                                     4      17.63 ms       0.02     100.00       4.40 ms       4.12 ms       4.72 ms
+│ │ │ ├ sirius::Potential::xc                                              2      83.86 ms       0.07       7.83      41.93 ms      41.65 ms      42.21 ms
+│ │ │ │ ├ sirius::Potential::xc_mt                                         2      55.72 ms       0.05     100.00      27.86 ms      27.66 ms      28.05 ms
+│ │ │ │ └ sirius::Potential::xc_rg_nonmagnetic                             2      21.58 ms       0.02      55.52      10.79 ms      10.74 ms      10.84 ms
+│ │ │ │   └ sirius::Potential::xc_rg_nonmagnetic|libxc                     4       9.60 ms       0.01     100.00       2.40 ms       1.52 ms       3.29 ms
+│ │ │ ├ sirius::Smooth_periodic_function::fft_transform                    4       3.11 ms       0.00     100.00     787.98 us     731.80 us     804.67 us
+│ │ │ ├ sirius::symmetrize_pw_function                                     2      61.85 ms       0.05       3.32      30.93 ms      30.88 ms      30.97 ms
+│ │ │ │ ├ fft::Gvec_shells::remap_forward                                  2      12.28 ms       0.01     100.00       6.14 ms       6.11 ms       6.17 ms
+│ │ │ │ ├ sirius::symmetrize|fpw|local                                     2      35.38 ms       0.03     100.00      17.69 ms      17.67 ms      17.71 ms
+│ │ │ │ └ fft::Gvec_shells::remap_backward                                 2      12.14 ms       0.01     100.00       6.07 ms       6.04 ms       6.10 ms
+│ │ │ └ sirius::symmetrize_mt_function                                     6     648.73 ms       0.55     100.00     128.63 ms      64.17 ms     131.75 ms
+│ │ ├ sirius::Periodic_function::integrate                                 2      21.49 ms       0.02     100.00      10.75 ms      10.71 ms      10.78 ms
+│ │ └ sirius::Density::get_magnetisation                                   2       5.57 us       0.00     100.00       2.78 us       2.69 us       2.88 us
+│ ├ sirius::inner::pf                                                     13     187.92 ms       0.16     100.00      14.47 ms      14.09 ms      14.58 ms
+│ ├ sirius::Periodic_function::integrate                                   1      10.70 ms       0.01     100.00      10.70 ms      10.70 ms      10.70 ms
+│ ├ sirius::Density::get_magnetisation                                     1       4.29 us       0.00     100.00       4.29 us       4.29 us       4.29 us
+│ ├ sirius::Smooth_periodic_function::fft_transform                        1     598.15 us       0.00     100.00     598.15 us     598.15 us     598.15 us
+│ └ sirius::Smooth_periodic_function::gather_f_pw                          2       2.86 ms       0.00     100.00       1.43 ms       1.39 ms       1.47 ms
+└ sirius::finalize                                                         1     382.25 ms       0.33     100.00     382.25 ms     382.25 ms     382.25 ms
+
+==========================================================================================================================================================
+FE_UNDERFLOW exception
