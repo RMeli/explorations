@@ -7,6 +7,7 @@ import scipy
 parser = ap.ArgumentParser()
 parser.add_argument("matrix_size", type=int, help="Matrix size")
 parser.add_argument("last_eval_index", type=int, help="Last eigenvalue index")
+parser.add_argument("problem", type=str, choices=("std", "gen"), help="Eigenvalue problem type")
 args = parser.parse_args()
 
 N = args.matrix_size
@@ -65,14 +66,16 @@ def load_evecs(fname: str, name: str):
     return ee.T
 
 
-datafile = f"data/n{N}-e{last_eval_index}.h5"
+datafile = f"data/{args.problem}/n{N}-e{last_eval_index}.h5"
 
-a = load_input(datafile, "input")
+a = load_input(datafile, "input" + "-a" if args.problem == "gen" else "")
+if args.problem == "gen":
+    b = load_input(datafile, "input-b")
 e = load_evals(datafile, "evals")
 ee = load_evecs(datafile, "evecs")
 
 # Solve with SciPy
-e_scipy, ee_scipy = scipy.linalg.eigh(a)
+e_scipy, ee_scipy = scipy.linalg.eigh(a) if args.problem == "std" else scipy.linalg.eigh(a, b)
 assert np.all(e_scipy[:-1] <= e_scipy[1:])  # sorted
 assert not np.any(np.isnan(e_scipy))
 assert not np.any(np.isnan(ee_scipy))
