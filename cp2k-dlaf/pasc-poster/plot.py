@@ -57,7 +57,7 @@ def lp(df, name, cluster, ylims, average=False, legend=True):
         df[name] /= df[f"n_{name}"]
 
     #    title = f"{system.upper()} (dlaf@{dlaf_version}-pika@{pika_version})"
-    title = "CP2K: H2O-512 (20480x20480)"
+    title = "CP2K (20480x20480)"
 
     #fig, ax = plt.subplots(figsize=(4.4, 2.2), gridspec_kw=dict(left=0.13, right=0.95, top=0.9, bottom=0.19))
     fig, ax = plt.subplots(figsize=(8.8 / 3, 3.6/2), gridspec_kw=dict(left=0.13, right=0.95, top=0.9, bottom=0.13))
