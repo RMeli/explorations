@@ -1,0 +1,17 @@
+library,nodes,time,units
+cusolver,0.25,42.73,s
+dlaf,0.25,68.21,s
+dlaf,0.5,54.52,s
+dlaf,1,50.65,s
+dlaf,2,47.93,s
+dlaf,4,47.33,s
+dlaf,8,47.19,s
+elpa1,0.25,119.29,s
+elpa1,0.5,83.19,s
+elpa1,1,72.89,s
+elpa1,2,61.46,s
+elpa1,8,50.04,s
+elpa2,0.25,116.97,s
+elpa2,0.5,80.70,s
+elpa2,1,79.35,s
+elpa2,2,63.91,s
