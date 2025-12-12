@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=lammps-metatomic
-#SBATCH --time=00:30:00
+#SBATCH --time=02:00:00
 #SBATCH --account=csstaff
 #SBATCH --nodes=1
 #SBATCH --uenv=lammps-metatomic/rc2:2064644445@daint
@@ -15,13 +15,16 @@ sleep 1
 rm -f stop_monitor
 
 srun -u --overlap --ntasks-per-node=1 --output "out-%J.log" hwloc-bind --cpubind core:8-15 -- ./monitor.sh &
+sm=$!
+sleep 30
 
-srun -u --overlap --ntasks-per-node=1 --output "out-%J.log" ./gpubind0.sh hwloc-bind --cpubind core:0-7 -- lmp -in in.K_500 -log none -k on g 1 -sf kk -pk kokkos neigh half  &
+srun -u --overlap --ntasks-per-node=1 --output "out-%J.log" ./gpubind0.sh hwloc-bind --cpubind core:0-7 -- lmp -in in.K_500 -log out.K_750_0.log &
 pidj1=$!
 
 wait $pidj1
 
-sleep 10
+sleep 30
 touch stop_monitor
+wait $sm
 
 echo quit | nvidia-cuda-mps-control

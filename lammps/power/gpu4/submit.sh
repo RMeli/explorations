@@ -14,6 +14,8 @@ sleep 1
 
 rm -f stop_monitor
 srun -u --overlap --ntasks-per-node=1 --output "out-%J.log" ./gpubind0.sh hwloc-bind --cpubind core:32-39 -- ./monitor.sh &
+sm=$!
+sleep 30
 
 srun -u --overlap --ntasks-per-node=1 --output "out-%J.log" ./gpubind0.sh hwloc-bind --cpubind core:0-7 -- lmp -in in.K_500 -log out.K_500_0.log &
 j1=$!
@@ -26,7 +28,8 @@ j4=$!
 
 wait $j1 $j2 $j3 $j4
 
-sleep 10
+sleep 30
 touch stop_monitor
+wait $sm
 
 echo quit | nvidia-cuda-mps-control

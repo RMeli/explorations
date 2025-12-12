@@ -15,6 +15,7 @@ sleep 1
 rm -f stop_monitor
 srun -u --overlap --ntasks-per-node=1 --output "out-%J.log" hwloc-bind --cpubind core:32-39 -- ./monitor.sh &
 sm=$1
+sleep 30
 
 srun -u --overlap --ntasks-per-node=1 --output "out-%J.log" ./gpubind0.sh hwloc-bind --cpubind core:0-7 -- lmp -in in.K_500 -log out.K_500_0.log &
 j01=$!
@@ -54,7 +55,7 @@ j34=$!
 
 wait $j01 $j02 $j03 $j04 $j11 $j12 $j13 $j14 $j21 $j22 $j23 $j24 $j31 $j32 $j33 $j34 $j41 $j42 $j43 $j44
 
-sleep 10
+sleep 30
 touch stop_monitor
 wait $sm
 

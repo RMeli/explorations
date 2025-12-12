@@ -1,0 +1,20 @@
+Tue 25 Nov 14:11:55 CET 2025
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    137190      1  0 14:11 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    138902 138895  0 14:12 ?        00:00:00 grep mps
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005841:cpu finished initialisation in 3.2e-06 seconds
+nid005841:gpu finished initialisation in 4.949241598 seconds
+
+--- burning for 900 seconds
+
+nid005841:gpu 155954 iterations, 43321.83 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005841:cpu no benchmark run
+Monitor stopping.
+Tue 25 Nov 14:28:14 CET 2025

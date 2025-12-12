@@ -1,0 +1,303 @@
+Tue 25 Nov 14:10:32 CET 2025
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    165918 160079  0 14:11 ?        00:00:00 grep mps
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    165950 160512  0 14:11 ?        00:00:00 grep mps
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    165956 160508  0 14:11 ?        00:00:00 grep mps
+rmeli    165958 160510  0 14:11 ?        00:00:00 grep mps
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    165956 160508  0 14:11 ?        00:00:00 grep mps
+rmeli    165958 160510  0 14:11 ?        00:00:00 grep mps
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    165964 165882  0 14:11 ?        00:00:00 grep mps
+rmeli    165965 165883  0 14:11 ?        00:00:00 grep mps
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    165964 165882  0 14:11 ?        00:00:00 grep mps
+rmeli    165965 165883  0 14:11 ?        00:00:00 grep mps
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    165999 160509  0 14:11 ?        00:00:00 grep mps
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    166001 160300  0 14:11 ?        00:00:00 grep mps
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    166005 160423  0 14:11 ?        00:00:00 grep mps
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    166022 165880  0 14:11 ?        00:00:00 grep mps
+rmeli    166024 165881  0 14:11 ?        00:00:00 grep mps
+rmeli    166027 165884  0 14:11 ?        00:00:00 grep mps
+rmeli    166028 165885  0 14:11 ?        00:00:00 grep mps
+rmeli    166030 165879  0 14:11 ?        00:00:00 grep mps
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    166022 165880  0 14:11 ?        00:00:00 grep mps
+rmeli    166024 165881  0 14:11 ?        00:00:00 grep mps
+rmeli    166027 165884  0 14:11 ?        00:00:00 grep mps
+rmeli    166028 165885  0 14:11 ?        00:00:00 grep mps
+rmeli    166030 165879  0 14:11 ?        00:00:00 grep mps
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    166027 165884  0 14:11 ?        00:00:00 grep mps
+rmeli    166027 165884  0 14:11 ?        00:00:00 grep mps
+rmeli    166028 165885  0 14:11 ?        00:00:00 grep mps
+rmeli    166028 165885  0 14:11 ?        00:00:00 grep mps
+rmeli    166030 165879  0 14:11 ?        00:00:00 grep mps
+rmeli    166030 165879  0 14:11 ?        00:00:00 grep mps
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    166027 165884  0 14:11 ?        00:00:00 grep mps
+rmeli    166028 165885  0 14:11 ?        00:00:00 grep mps
+rmeli    166030 165879  0 14:11 ?        00:00:00 grep mps
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    155143      1  0 14:10 ?        00:00:00 nvidia-cuda-mps-control -d
+rmeli    166041 165877  0 14:11 ?        00:00:00 grep mps
+rmeli    166041 165877  0 14:11 ?        00:00:00 grep mps
+rmeli    166042 165878  0 14:11 ?        00:00:00 grep mps
+rmeli    166042 165878  0 14:11 ?        00:00:00 grep mps
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.84e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.424e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 2.752e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.36e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.008e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.552e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.168e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.2e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 3.167e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 2.912e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 2.911e-06 seconds
+--------- Node-Burn ---------
+--------- Node-Burn ---------
+--------- Node-Burn ---------
+experiments:
+experiments:
+experiments:
+  gpu: gemm, N=5000
+  gpu: gemm, N=5000
+  gpu: gemm, N=5000
+  cpu: none
+  cpu: none
+  cpu: none
+  duration: 900 seconds
+  duration: 900 seconds
+  duration: 900 seconds
+-----------------------------
+-----------------------------
+-----------------------------
+
+
+
+nid005656:cpu finished initialisation in 3.232e-06 seconds
+nid005656:cpu finished initialisation in 2.752e-06 seconds
+nid005656:cpu finished initialisation in 3.072e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 2.496e-06 seconds
+--------- Node-Burn ---------
+experiments:
+  gpu: gemm, N=5000
+  cpu: none
+  duration: 900 seconds
+-----------------------------
+
+nid005656:cpu finished initialisation in 2.911e-06 seconds
+nid005656:gpu finished initialisation in 14.131913033 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 14.885415378 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 14.891130927 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 13.25233351 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 13.119666123 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.828157714 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.959377949 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.958513722 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.827533766 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.851435 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 13.560386093 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 14.131677969 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 14.022907721 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.898332028 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.967686402 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu finished initialisation in 12.995426802 seconds
+
+--- burning for 900 seconds
+
+nid005656:gpu  37229 iterations, 10341.30 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  37221 iterations, 10339.35 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38741 iterations, 10761.39 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38018 iterations, 10560.75 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38019 iterations, 10560.95 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38717 iterations, 10754.88 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38381 iterations, 10661.42 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38018 iterations, 10560.62 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38378 iterations, 10660.80 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38378 iterations, 10660.84 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38379 iterations, 10660.82 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38716 iterations, 10754.64 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  37219 iterations, 10338.88 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38719 iterations, 10755.46 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  37224 iterations, 10340.18 GFlops,    900.0 seconds,    0.600 Gbytes
+nid005656:gpu  38032 iterations, 10564.66 GFlops,    900.0 seconds,    0.600 Gbytes
+[2025-11-25T14:26:38.850] error: Detected 1 oom_kill event in StepId=2131859.16. Some of the step tasks have been OOM Killed.
+[2025-11-25T14:26:44.650] error: Detected 1 oom_kill event in StepId=2131859.15. Some of the step tasks have been OOM Killed.
+srun: error: nid005656: task 0: Out Of Memory
+srun: Terminating StepId=2131859.16
+srun: error: nid005656: task 0: Out Of Memory
+srun: Terminating StepId=2131859.15
+[2025-11-25T14:26:49.698] error: Detected 1 oom_kill event in StepId=2131859.12. Some of the step tasks have been OOM Killed.
+srun: error: nid005656: task 0: Out Of Memory
+srun: Terminating StepId=2131859.12
+[2025-11-25T14:26:55.442] error: Detected 1 oom_kill event in StepId=2131859.10. Some of the step tasks have been OOM Killed.
+srun: error: nid005656: task 0: Out Of Memory
+srun: Terminating StepId=2131859.10
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+nid005656:cpu no benchmark run
+Monitor stopping.
+Tue 25 Nov 14:27:36 CET 2025
